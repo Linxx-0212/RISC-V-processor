@@ -1,0 +1,72 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Write_stage_Structure_impl_1 in project D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure.psp.
+new_impl -name Write_stage_Structure_impl_1
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Write_stage_entity.vhd" ...
+# Error: [43094]: "D:/CAD/cad_lib/hdl/Write_stage_entity.vhd", line 31: Design Unit Reg not found in logical library work.
+# Error: [40008]: HDL analysis failed.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/Write_stage_Structure/hds/precision.tcl
+# COMMAND: add_input_file {../../hdl/Fun_reg_entity.vhd ../../hdl/Reg_entity.vhd ../../hdl/We_controller_entity.vhd}
+add_input_file {../../hdl/Fun_reg_entity.vhd ../../hdl/Reg_entity.vhd ../../hdl/We_controller_entity.vhd}
+# COMMAND: compile
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Write_stage_Structure/../../hdl/Fun_reg_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Write_stage_Structure/../../hdl/Reg_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Write_stage_Structure/../../hdl/We_controller_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Write_stage_entity.vhd" ...
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:32:49
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:52:40
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.Write_stage(Structure): Pre-processing...
+# Info: [44506]: Module work.Reg(Behavior){generic map (width => 32)}: Pre-processing...
+# Info: [44506]: Module work.Reg(Behavior){generic map (width => 5)}: Pre-processing...
+# Info: [44506]: Module work.Fun_reg(Behavior): Pre-processing...
+# Info: [44506]: Module work.We_controller(Behavior): Pre-processing...
+# Info: [44508]: Module work.Reg(Behavior){generic map (width => 32)}: Compiling...
+# Info: [44508]: Module work.Reg(Behavior){generic map (width => 5)}: Compiling...
+# Info: [44508]: Module work.Fun_reg(Behavior): Compiling...
+# Info: [44508]: Module work.We_controller(Behavior): Compiling...
+# Info: [44523]: Root Module work.Write_stage(Structure): Compiling...
+# Info: [45252]: "D:/CAD/cad_lib/ps/Write_stage_Structure/../../hdl/We_controller_entity.vhd", line 30: Inferred rom instance 'rtlcI2' of type 'rom_1_6_64_2'.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 93.
+# Info: [44835]: Total CPU time for compilation: 0.7 secs.
+# Info: [44513]: Overall running time for compilation: 2.0 secs.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [665]: Finished compiling design.
+compile
+# COMMAND: report_area D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1/Write_stage_area.rep -cell_usage
+report_area D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1/Write_stage_area.rep -cell_usage
+# Warning: [1067]: Some hierarchy instances were flattened in ".work.Write_stage.Structure" during optimization. If you want to preserve hierarchy path, add the sdc file into precision before running compile
+# COMMAND: source D:/CAD/cad_lib/ps/Memory_stage_Structure/hds/precision.tcl
+# Info: HDL Designer Synthesis run started
+# Error: [9518]: Another project (D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure.psp) is already open.
+source D:/CAD/cad_lib/ps/Memory_stage_Structure/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Write_stage_Structure_impl_1.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Write_stage_Structure_impl_1 in project D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_2.
+# Info: [9557]: Created implementation Write_stage_Structure_impl_2 in project D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure.psp.

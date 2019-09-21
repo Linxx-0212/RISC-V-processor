@@ -1,0 +1,12 @@
+10:-pipe_flow
+6:-quiet
+8:-out_dir
+68:D:/CAD/cad_lib/ps/Arbiter_Behavior/Arbiter_Behavior_impl_1//rtlc.out
+4:-vhf
+87:D:/CAD/cad_lib/ps/Arbiter_Behavior/Arbiter_Behavior_impl_1//hdlAnalyze_techcellvhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+68:D:/CAD/cad_lib/ps/Arbiter_Behavior/Arbiter_Behavior_impl_1//.jaguarc
+7:-sv2009
+61:+incdir+D:/CAD/cad_lib/hdl+D:/CAD/cad_lib/ps/Arbiter_Behavior
+17:+define+synthesis

@@ -1,0 +1,4 @@
+cad_lib "G:/CAD/cad_lib/hdl/Reg_dec_entity.vhd" -2008
+cad_lib "G:/CAD/cad_lib/hdl/Mux32_entity.vhd" -2008
+cad_lib "G:/CAD/cad_lib/hdl/Reg_entity.vhd" -2008
+cad_lib "G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" -2008

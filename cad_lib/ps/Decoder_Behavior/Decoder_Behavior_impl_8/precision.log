@@ -1,0 +1,14 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_8/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_8/precision.log.suppressed
+# Info: [9552]: Activated implementation Decoder_Behavior_impl_8 in project D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Error: You have not specified a technology. This may cause synthesis to fail.
+# Error: [530]: Command failed: run setup_design to choose a technology before executing compile.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/Decoder_Behavior/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Decoder_Behavior_impl_8.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_8/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_8/precision.log.suppressed
+# Info: [9552]: Activated implementation Decoder_Behavior_impl_8 in project D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_9.
+# Info: [9557]: Created implementation Decoder_Behavior_impl_9 in project D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.

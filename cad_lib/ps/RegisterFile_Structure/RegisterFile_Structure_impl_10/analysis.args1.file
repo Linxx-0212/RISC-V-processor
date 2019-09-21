@@ -1,0 +1,13 @@
+8:-out_dir
+81:D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_10//rtlc.out
+10:-pipe_flow
+4:-vhf
+92:D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_10//hdlAnalyze_vhdlfile
+4:-vef
+95:D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_10//hdlAnalyze_verilogfile
+25:-comment_transoff_regions
+13:-lib_map_file
+81:D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_10//.jaguarc
+7:-sv2009
+67:+incdir+D:/CAD/cad_lib/hdl+D:/CAD/cad_lib/ps/RegisterFile_Structure
+17:+define+synthesis

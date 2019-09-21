@@ -1,0 +1,41 @@
+//  Precision RTL Synthesis 64-bit 2015.2.10 (Production Release) Tue Nov  3 06:31:13 PST 2015
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2015, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on  34679@DESKTOP-13EGCCO  6.02.9200 
+//  
+//  Start time Wed Mar 06 03:05:21 2019
+
+***************************************************************
+Device Utilization for 5M2210ZF324A
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               213     271      78.60%
+LCs                               280     2210     12.67%
+---------------------------------------------------------------
+
+**********************************************************
+
+Library: cad_lib    Cell: Decoder_stage    View: STRUCTURE
+
+**********************************************************
+
+  Cell         Library  References     Total Area
+
+ maxv_io       maxv   213 x      1    213 IOs
+ maxv_lcell    maxv   280 x      1    280 LCs
+
+ Number of ports :                     213
+ Number of nets :                      589
+ Number of instances :                 493
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of IOs :                       213
+ Number of LCs :                       280
+ Number of accumulated instances :     493

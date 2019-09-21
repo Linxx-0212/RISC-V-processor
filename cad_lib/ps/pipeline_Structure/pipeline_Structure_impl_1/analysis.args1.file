@@ -1,0 +1,12 @@
+8:-out_dir
+72:G:/CAD/cad_lib/ps/pipeline_Structure/pipeline_Structure_impl_1//rtlc.out
+10:-pipe_flow
+4:-vhf
+83:G:/CAD/cad_lib/ps/pipeline_Structure/pipeline_Structure_impl_1//hdlAnalyze_vhdlfile
+4:-vef
+86:G:/CAD/cad_lib/ps/pipeline_Structure/pipeline_Structure_impl_1//hdlAnalyze_verilogfile
+25:-comment_transoff_regions
+13:-lib_map_file
+72:G:/CAD/cad_lib/ps/pipeline_Structure/pipeline_Structure_impl_1//.jaguarc
+63:+incdir+G:/CAD/cad_lib/hdl+G:/CAD/cad_lib/ps/pipeline_Structure
+17:+define+synthesis

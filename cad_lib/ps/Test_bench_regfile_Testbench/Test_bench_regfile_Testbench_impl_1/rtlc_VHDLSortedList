@@ -1,0 +1,7 @@
+work "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" -2008 
+work "D:/CAD/cad_lib/hdl/Reg_dec_entity.vhd" -2008 
+work "D:/CAD/cad_lib/hdl/Mux32_entity.vhd" -2008 
+work "D:/CAD/cad_lib/hdl/Mux2_entity.vhd" -2008 
+work "D:/CAD/cad_lib/hdl/Reg_entity.vhd" -2008 
+work "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" -2008 
+work "D:/CAD/cad_lib/hdl/Test_bench_regfile_entity.vhd" -2008 

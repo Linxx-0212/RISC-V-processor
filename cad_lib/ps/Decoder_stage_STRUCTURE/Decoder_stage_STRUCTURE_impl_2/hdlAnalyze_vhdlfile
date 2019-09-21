@@ -1,0 +1,5 @@
+work "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" -2008
+work "D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/../../hdl/De_Control_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/../../hdl/decoder_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/../../hdl/Mux2_entity.vhd" -2002
+work "D:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd" -2008

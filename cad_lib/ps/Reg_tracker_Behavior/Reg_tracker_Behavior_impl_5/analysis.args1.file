@@ -1,0 +1,13 @@
+8:-out_dir
+76:D:/CAD/cad_lib/ps/Reg_tracker_Behavior/Reg_tracker_Behavior_impl_5//rtlc.out
+10:-pipe_flow
+4:-vhf
+87:D:/CAD/cad_lib/ps/Reg_tracker_Behavior/Reg_tracker_Behavior_impl_5//hdlAnalyze_vhdlfile
+4:-vef
+90:D:/CAD/cad_lib/ps/Reg_tracker_Behavior/Reg_tracker_Behavior_impl_5//hdlAnalyze_verilogfile
+25:-comment_transoff_regions
+13:-lib_map_file
+76:D:/CAD/cad_lib/ps/Reg_tracker_Behavior/Reg_tracker_Behavior_impl_5//.jaguarc
+7:-sv2009
+65:+incdir+D:/CAD/cad_lib/hdl+D:/CAD/cad_lib/ps/Reg_tracker_Behavior
+17:+define+synthesis

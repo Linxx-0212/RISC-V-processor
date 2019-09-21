@@ -1,0 +1,49 @@
+# Info: [9566]: Logging project transcript to file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation Fetch_Behavior_impl_1 in project F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior.psp.
+new_impl -name Fetch_Behavior_impl_1
+# Info: [15298]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [574]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15324]: Setting Part to: "5M2210ZF324A".
+# Info: [15325]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/Fetch_entity.vhd" ...
+# Info: [656]: Current working directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 15:50:07
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 16:23:48
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module cad_lib.Fetch(Behavior): Pre-processing...
+# Info: [44523]: Root Module cad_lib.Fetch(Behavior): Compiling...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 40.
+# Info: [44835]: Total CPU time for compilation: 0.4 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [656]: Current working directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [659]: Finished compiling design.
+# Info: [656]: Current working directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1.
+# Info: [20013]: Precision will use 2 processor(s).
+# Info: [15002]: Optimizing design view:.cad_lib.Fetch.Behavior
+# Info: [3027]: Writing file: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/Fetch.edf.
+# Info: Info, Writing xrf file 'F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/Fetch.xrf'
+# Info: [3027]: Writing file: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/Fetch.xrf.
+# Info: -- Writing file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/Fetch.tcl
+# Info: exq_pr_compile_project gen_vcf Fetch 1
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.3 s secs.
+# Info: [11020]: Overall running time for synthesis: 0.5 s secs.
+# Info:  HDL Designer Synthesis run finished
+source "F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/Fetch_Behavior/hds/precision.tcl"
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Fetch_Behavior_impl_1 in project D:/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior_impl_2.
+# Info: [9557]: Created implementation Fetch_Behavior_impl_2 in project D:/CAD/cad_lib/ps/Fetch_Behavior/Fetch_Behavior.psp.

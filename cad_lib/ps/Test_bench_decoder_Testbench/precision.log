@@ -1,0 +1,92 @@
+# Info: [9569]: Logging session transcript to file C:/MentorGraphics/bin/precision.log
+//  Precision RTL Synthesis 64-bit 2018.1.0.19 (Production Release) Fri Aug 10 05:55:53 PDT 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 10 Xiaoxi Lin@DESKTOP-A0VSQRS  10.0.17134 x64
+//  
+//  Start time Mon Feb 25 09:25:48 2019
+# -------------------------------------------------
+# Info: [9569]: Logging session transcript to file C:/MentorGraphics/bin/precision.log
+# COMMAND: source D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/hds/precision.tcl
+# Info: HDL Designer Synthesis run started
+# Info: [9577]: Input directory: D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench
+# Info: [9572]: Moving session transcript to file D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/precision.log
+# Info: [9558]: Created project D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench.psp in folder D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench.
+# Warning: [9508]: Results directory is not set. Use new_project, open_project, or set_results_dir.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench_impl_1.
+# Info: [9557]: Created implementation Test_bench_decoder_Testbench_impl_1 in project D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench.psp.
+# Info: [9578]: The Results Directory has been set to: D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench_impl_1/
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench_impl_1/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Test_bench_decoder_Testbench_impl_1 in project D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench.psp.
+new_impl -name Test_bench_decoder_Testbench_impl_1
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Warning: [42750]: "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 71: Function may return without executing a return statement
+# Warning: [43642]: "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 76: Design unit RV32I is already present in library work. Overwriting old definition of this design unit.
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd" ...
+# Error: [43094]: "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd", line 31: Design Unit Decoder not found in logical library work.
+# Error: [40008]: HDL analysis failed.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/hds/precision.tcl
+# COMMAND: add_input_file {../../hdl/decoder_entity.vhd ../../hdl/RV32I_pkg.vhd}
+# Warning: [15239]: Input file D:/CAD/cad_lib/hdl/RV32I_pkg.vhd already exists in the list. Command options ignored.
+add_input_file {../../hdl/decoder_entity.vhd ../../hdl/RV32I_pkg.vhd}
+# COMMAND: compile
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Warning: [42750]: "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 71: Function may return without executing a return statement
+# Warning: [43642]: "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 76: Design unit RV32I is already present in library work. Overwriting old definition of this design unit.
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd" ...
+# Warning: [43535]: "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd", line 43: Timeout expression in wait statement is not supported
+# Warning: [43535]: "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd", line 65: Timeout expression in wait statement is not supported
+# Warning: [43535]: "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd", line 67: Timeout expression in wait statement is not supported
+# Warning: [43535]: "D:/CAD/cad_lib/hdl/Test_bench_decoder_entity.vhd", line 69: Timeout expression in wait statement is not supported
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:32:49
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:52:40
+# Info: [44512]: Initializing...
+# Error: [46292]: Module work.Test_bench_decoder(Testbench) cannot be compiled because it contains non-rtl constructs. Please check the log for warnings or errors about non-synthesizable constructs in this module.
+# Info: [44506]: Module work.Decoder(Behavior): Pre-processing...
+# Info: [44508]: Module work.Decoder(Behavior): Compiling...
+# Info: [45252]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 206: Inferred rom instance 'rtlcI2' of type 'rom_2_7_128_1'.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) RS1[4:0]: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) RS2[4:0]: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) RD[4:0]: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) RS1v: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) RS2v: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) RDv: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) Immediate[31:0]: Latch inferred.
+# Info: [45205]: "D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/../../hdl/decoder_entity.vhd", line 25: Module work.Decoder(Behavior), Net(s) Func[5:0]: Latch inferred.
+# Info: [44513]: Overall running time for compilation: 3.0 secs.
+# Error: [46259]: Design compilation failed, unsupported or non-rtl constructs detected in the following modules :
+# Info: [40000]: work.Test_bench_decoder(Testbench)
+# Info: [40000]: Please check the log for details pertaining to unsupported or non-rtl construct(s)
+# Error: [679]: Unable to elaborate design work.Test_bench_decoder(Testbench) in vhdl.
+compile
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Test_bench_decoder_Testbench_impl_1.
+# Info: [9530]: Closed project: D:/CAD/cad_lib/ps/Test_bench_decoder_Testbench/Test_bench_decoder_Testbench.psp.
+close_project -discard
+exit -force

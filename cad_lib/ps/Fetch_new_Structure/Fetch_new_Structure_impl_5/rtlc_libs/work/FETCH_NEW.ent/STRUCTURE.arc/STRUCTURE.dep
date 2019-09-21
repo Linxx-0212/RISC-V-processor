@@ -1,0 +1,22 @@
+1549577791.860000
+*217032638
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	FETCH_NEW	FETCH_NEW	0	2667559296
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	MUX2	MUX2	0	2104579194
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	BEHAVIOR	MUX2	1	3758899488
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	REG	REG	0	3590068278
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	BEHAVIOR	REG	1	593468225
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	INCREMENT	INCREMENT	0	345957123
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+work	D:\CAD\cad_lib\ps\Fetch_new_Structure\Fetch_new_Structure_impl_5\rtlc_libs\work	BEHAVIOR	INCREMENT	1	931655039
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0

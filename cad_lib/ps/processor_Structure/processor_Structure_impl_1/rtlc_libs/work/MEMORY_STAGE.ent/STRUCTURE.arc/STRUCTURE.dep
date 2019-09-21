@@ -1,0 +1,31 @@
+1556055903.967000
+*2341402861
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	MEMORY_STAGE	MEMORY_STAGE	0	3213106088
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	REG	REG	0	3590068278
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	BEHAVIOR	REG	1	593468225
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	FUN_REG	FUN_REG	0	391546779
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	RV32I	RV32I	2	842427033
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	BEHAVIOR	FUN_REG	1	2522691321
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	ME_CONTROLLER	ME_CONTROLLER	0	4250881411
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	RV32I	RV32I	2	842427033
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	BEHAVIOR	ME_CONTROLLER	1	532567576
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	MUX2	MUX2	0	2104579194
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+work	D:\CAD\cad_lib\ps\processor_Structure\processor_Structure_impl_1\rtlc_libs\work	BEHAVIOR	MUX2	1	3758899488
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0

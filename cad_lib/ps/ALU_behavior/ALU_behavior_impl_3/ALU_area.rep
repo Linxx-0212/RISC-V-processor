@@ -1,0 +1,42 @@
+//  Precision RTL Synthesis 64-bit 2018.1.0.19 (Production Release) Fri Aug 10 05:55:53 PDT 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 10 Xiaoxi Lin@DESKTOP-A0VSQRS  10.0.17763 x64
+//  
+//  Start time Fri Mar 22 11:07:11 2019
+
+***************************************************************
+Device Utilization for 5M2210ZF324A
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               106     271      39.11%
+LCs                               574     2210     25.97%
+---------------------------------------------------------------
+
+********************************************
+
+Library: work    Cell: ALU    View: behavior
+
+********************************************
+
+  Cell          Library  References     Total Area
+
+ addsub_32_0    OPERATORS     1 x     32     32 LCs
+ maxv_io        maxv        105 x      1    105 IOs
+ maxv_lcell     maxv        542 x      1    542 LCs
+
+ Number of ports :                          106
+ Number of nets :                           751
+ Number of instances :                      648
+ Number of references to this view :          0
+
+Total accumulated area : 
+ Number of IOs :                            106
+ Number of LCs :                            574
+ Number of accumulated instances :          680

@@ -1,0 +1,12 @@
+8:-out_dir
+54:G:/CAD/cad_lib/ps/processor/processor_impl_1//rtlc.out
+10:-pipe_flow
+4:-vhf
+65:G:/CAD/cad_lib/ps/processor/processor_impl_1//hdlAnalyze_vhdlfile
+4:-vef
+68:G:/CAD/cad_lib/ps/processor/processor_impl_1//hdlAnalyze_verilogfile
+25:-comment_transoff_regions
+13:-lib_map_file
+54:G:/CAD/cad_lib/ps/processor/processor_impl_1//.jaguarc
+54:+incdir+G:/CAD/cad_lib/hdl+G:/CAD/cad_lib/ps/processor
+17:+define+synthesis

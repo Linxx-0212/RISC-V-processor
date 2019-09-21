@@ -1,0 +1,2 @@
+cad_lib "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd" -2008
+cad_lib "G:/CAD/cad_lib/hdl/decoder_entity.vhd" -2008

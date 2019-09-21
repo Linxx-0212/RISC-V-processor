@@ -1,0 +1,7 @@
+Inferred ROM
+------------
+  1. Instance: rtlc_Con_out1_0n1ss1_I3
+    File: D:/CAD/cad_lib/hdl/De_Control_entity.vhd , Net: rtlc_Con_out1_0n1ss1
+    port 1  address width: 6
+    port 1  data width: 1
+

@@ -1,0 +1,52 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/precision.log.suppressed
+# Info: [9552]: Activated implementation Decoder_Behavior_impl_14 in project D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/decoder_entity.vhd" ...
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:32:49
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:52:40
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.Decoder(Behavior): Pre-processing...
+# Info: [44523]: Root Module work.Decoder(Behavior): Compiling...
+# Info: [45252]: "D:/CAD/cad_lib/hdl/decoder_entity.vhd", line 49: Inferred rom instance 'rtlcI3' of type 'rom_21_10_1024_2'.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 261.
+# Info: [44835]: Total CPU time for compilation: 1.1 secs.
+# Info: [44513]: Overall running time for compilation: 2.0 secs.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [665]: Finished compiling design.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14.
+# Info: [20013]: Precision will use 2 processor(s).
+# Info: [15002]: Optimizing design view:.work.Decoder.Behavior
+# Info: [3027]: Writing file: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/Decoder.edf.
+# Info: Info, Writing xrf file 'D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/Decoder.xrf'
+# Info: [3027]: Writing file: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/Decoder.xrf.
+# Info: -- Writing file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/Decoder.tcl
+# Info: exq_pr_compile_project gen_vcf Decoder 1
+# Info: [665]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 2.0 s secs.
+# Info: [11020]: Overall running time for synthesis: 2.3 s secs.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/Decoder_Behavior/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Decoder_Behavior_impl_14.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_14/precision.log.suppressed
+# Info: [9552]: Activated implementation Decoder_Behavior_impl_14 in project D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_15.
+# Info: [9557]: Created implementation Decoder_Behavior_impl_15 in project D:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.

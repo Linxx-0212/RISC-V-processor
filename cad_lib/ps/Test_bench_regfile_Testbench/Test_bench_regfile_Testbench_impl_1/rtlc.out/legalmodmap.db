@@ -1,0 +1,7 @@
+Mux2-32 Mux2_32
+Reg_dec Reg_dec
+Test_bench_regfile Test_bench_regfile
+Reg-32 Reg_32
+Mux32 Mux32
+RegisterFile RegisterFile
+#LEGALIZEDMOD_COUNTER 0

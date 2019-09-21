@@ -1,0 +1,164 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/precision.log.suppressed
+# Info: [9552]: Activated implementation RegisterFile_Structure_impl_5 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.
+# Info: [15300]: Setting up the design to use synthesis library "xis6.syn"
+# Info: [580]: The global max fanout is currently set to 10000 for Xilinx - SPARTAN6.
+# Info: [15326]: Setting Part to: "6SLX16CSG324".
+# Info: [15327]: Setting Process to: "3".
+# Info: [7512]: The place and route tool for current technology is ISE.
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/xis6.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
+# Info: XILINX
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Reg_dec_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Reg_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" ...
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:32:49
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:52:40
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.RegisterFile(Structure): Pre-processing...
+# Info: [44506]: Module work.Reg_dec(Behavior): Pre-processing...
+# Info: [44506]: Module work.Reg(Behavior){generic map (width => 32)}: Pre-processing...
+# Warning: [45731]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 16: Output port Qr has never been assigned a value.
+# Warning: [45731]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 16: Output port Qr2 has never been assigned a value.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 18: Input port Read1 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 18: Input port Read2 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal WriteDC[0] has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal ReadDC has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal ReadDC2 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal mQr has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal mQr2 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q0 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q1 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q2 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q3 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q4 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q5 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q6 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q7 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q8 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q9 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q10 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q11 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q12 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q13 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q14 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q15 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q16 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q17 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q18 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q19 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q20 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q21 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q22 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q23 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q24 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q25 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q26 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q27 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q28 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q29 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q30 has never been used.
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 23: signal Q31 has never been used.
+# Info: [44508]: Module work.Reg_dec(Behavior): Compiling...
+# Info: [44508]: Module work.Reg(Behavior){generic map (width => 32)}: Compiling...
+# Info: [44523]: Root Module work.RegisterFile(Structure): Compiling...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 728.
+# Info: [44835]: Total CPU time for compilation: 0.7 secs.
+# Info: [44513]: Overall running time for compilation: 2.0 secs.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [665]: Finished compiling design.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5.
+# Info: [15002]: Optimizing design view:.work.RegisterFile.Structure
+# Warning: [1621]: Port Qr(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(4) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(5) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(6) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(7) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(8) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(9) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(10) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(11) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(12) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(13) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(14) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(15) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(16) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(17) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(18) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(19) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(20) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(21) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(22) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(23) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(24) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(25) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(26) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(27) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(28) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(29) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(30) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr(31) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(0) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(1) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(2) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(3) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(4) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(5) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(6) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(7) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(8) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(9) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(10) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(11) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(12) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(13) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(14) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(15) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(16) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(17) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(18) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(19) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(20) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(21) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(22) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(23) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(24) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(25) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(26) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(27) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(28) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(29) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(30) is connected to a disabled tristate, possibly unconnected Port in design.
+# Warning: [1621]: Port Qr2(31) is connected to a disabled tristate, possibly unconnected Port in design.
+# Info: [15002]: Optimizing design view:.work.RegisterFile.Structure
+# Info: [8010]: Gated clock transformations: Begin...
+# Info: [8010]: Gated clock transformations: End...
+# Info: [3027]: Writing file: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/RegisterFile.edf.
+# Info: [3027]: Writing file: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/RegisterFile.ucf.
+# Info: [665]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.5 s secs.
+# Info: [11020]: Overall running time for synthesis: 1.2 s secs.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/RegisterFile_Structure/hds/precision.tcl
+# COMMAND: report_area D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/RegisterFile_area.rep -cell_usage
+report_area D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/RegisterFile_area.rep -cell_usage
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation RegisterFile_Structure_impl_5.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_5/precision.log.suppressed
+# Info: [9552]: Activated implementation RegisterFile_Structure_impl_5 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_6.
+# Info: [9557]: Created implementation RegisterFile_Structure_impl_6 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.

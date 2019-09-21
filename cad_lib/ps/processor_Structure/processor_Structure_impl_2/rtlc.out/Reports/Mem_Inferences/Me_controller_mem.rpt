@@ -1,0 +1,7 @@
+Inferred ROM
+------------
+  1. Instance: rtlc_Write_I5
+    File: G:/CAD/cad_lib/hdl/Me_controller_entity.vhd , Net: rtlc_Write
+    port 1  address width: 6
+    port 1  data width: 4
+

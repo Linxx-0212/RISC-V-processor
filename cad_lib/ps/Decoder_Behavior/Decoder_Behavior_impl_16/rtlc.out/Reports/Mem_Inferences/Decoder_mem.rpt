@@ -1,0 +1,7 @@
+Inferred ROM
+------------
+  1. Instance: rtlc_new_reduced_rom_I2
+    File: D:/CAD/cad_lib/hdl/decoder_entity.vhd , Net: rtlc_Func_0n3ss1[0]
+    port 1  address width: 10
+    port 1  data width: 21
+

@@ -1,0 +1,11 @@
+work "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" -2008
+work "D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd" -2008
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Alu_control_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/ALU_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Compare_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Ex_controller_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Fun_reg_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Mux2_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Mux4_entity.vhd" -2002
+work "D:/CAD/cad_lib/ps/Execute_stage_Structure/../../hdl/Reg_entity.vhd" -2002
+work "D:/CAD/cad_lib/hdl/Execute_stage_entity.vhd" -2008

@@ -1,0 +1,19 @@
+[ModelSim]
+cad_lib = $HDS_PROJECT_DIR/cad_lib/work
+[Precision]
+cad_lib = $HDS_PROJECT_DIR/cad_lib/ps
+[QuestaSim]
+cad_lib = $HDS_PROJECT_DIR/cad_lib/work
+[SvAssistant]
+cad_lib = $HDS_PROJECT_DIR/cad_lib/svassistant
+[hdl]
+cad_lib = $HDS_PROJECT_DIR/cad_lib/hdl
+[hds]
+cad_lib = $HDS_PROJECT_DIR/cad_lib/hds
+[hds_settings]
+default_library = cad_lib
+version = 2
+[library_type]
+cad_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

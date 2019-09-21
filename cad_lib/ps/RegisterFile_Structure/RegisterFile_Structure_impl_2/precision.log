@@ -1,0 +1,66 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2/precision.log.suppressed
+# Info: [9552]: Activated implementation RegisterFile_Structure_impl_2 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.
+# Info: [15300]: Setting up the design to use synthesis library "xis6.syn"
+# Info: [580]: The global max fanout is currently set to 10000 for Xilinx - SPARTAN6.
+# Info: [15326]: Setting Part to: "6SLX16CSG324".
+# Info: [15327]: Setting Process to: "3".
+# Info: [7512]: The place and route tool for current technology is ISE.
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/xis6.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
+# Info: XILINX
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" ...
+# Error: [43094]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 27: Design Unit Reg_dec not found in logical library work.
+# Error: [40008]: HDL analysis failed.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/RegisterFile_Structure/hds/precision.tcl
+# COMMAND: add_input_file {../../hdl/Mux32_entity.vhd ../../hdl/Reg_dec_entity.vhd ../../hdl/Reg_entity.vhd}
+add_input_file {../../hdl/Mux32_entity.vhd ../../hdl/Reg_dec_entity.vhd ../../hdl/Reg_entity.vhd}
+# COMMAND: compile
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
+# Info: XILINX
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/RegisterFile_Structure/../../hdl/Mux32_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/RegisterFile_Structure/../../hdl/Reg_dec_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/RegisterFile_Structure/../../hdl/Reg_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" ...
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:32:49
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:52:40
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.RegisterFile(Structure): Pre-processing...
+# Info: [44506]: Module work.Reg_dec(Behavior): Pre-processing...
+# Info: [44506]: Module work.Reg(Behavior){generic map (width => 32)}: Pre-processing...
+# Info: [44506]: Module work.Mux32(Behavior): Pre-processing...
+# Warning: [45729]: "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal WriteDC[0] has never been used.
+# Info: [44508]: Module work.Reg_dec(Behavior): Compiling...
+# Info: [44508]: Module work.Reg(Behavior){generic map (width => 32)}: Compiling...
+# Info: [44508]: Module work.Mux32(Behavior): Compiling...
+# Info: [44523]: Root Module work.RegisterFile(Structure): Compiling...
+# Info: [45205]: "D:/CAD/cad_lib/ps/RegisterFile_Structure/../../hdl/Mux32_entity.vhd", line 24: Module work.Mux32(Behavior), Net(s) Q[31:0]: Latch inferred.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 930.
+# Info: [44835]: Total CPU time for compilation: 3.1 secs.
+# Info: [44513]: Overall running time for compilation: 5.0 secs.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [665]: Finished compiling design.
+compile
+# COMMAND: report_area D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2/RegisterFile_area.rep -cell_usage
+report_area D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2/RegisterFile_area.rep -cell_usage
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation RegisterFile_Structure_impl_2.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2/precision.log.suppressed
+# Info: [9552]: Activated implementation RegisterFile_Structure_impl_2 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_3.
+# Info: [9557]: Created implementation RegisterFile_Structure_impl_3 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.

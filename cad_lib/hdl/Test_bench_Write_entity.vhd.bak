@@ -1,0 +1,78 @@
+--
+-- VHDL Entity cad_lib.Test_bench_decoder.arch_name
+--
+-- Created:
+--          by - 34679.UNKNOWN (DESKTOP-13EGCCO)
+--          at - 14:49:17 2019/02/24
+--
+-- using Mentor Graphics HDL Designer(TM) 2015.1b (Build 4)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+USE std.textio.all;
+USE work.RV32I.all;
+
+ENTITY Test_bench_Write IS
+END ENTITY Test_bench_Write;
+
+ARCHITECTURE Testbench of Test_bench_Write IS
+  FILE test_vectors : text OPEN read_mode IS "G:\CAD\Write_vec.txt";
+  
+  SIGNAL Data,Data_out,Datav : std_ulogic_vector(31 DOWNTO 0);
+  SIGNAL Funv : RV32I_Op;
+  SIGNAL Rd,Rd_out,RDv: std_ulogic_vector(4 DOWNTO 0);
+  SIGNAL Clock,write,writev : std_ulogic;
+  SIGNAL vecno : NATURAL := 0;
+BEGIN
+  Write_stage : ENTITY work.Write_stage(Structure)
+  PORT MAP(Data => Data, Rd=> Rd, Fun => Funv, Data_out =>Data_out,Rd_out => Rd_out,Write=>write, Clk=>Clock);
+
+  Stim : PROCESS
+  VARIABLE L : LINE;
+  VARIABLE Datain,Datao : std_ulogic_vector(31 DOWNTO 0);
+  VARIABLE Fun : String(1 TO 5);
+  VARIABLE w: std_ulogic;
+  VARIABLE Ro,D: std_ulogic_vector(4 DOWNTO 0);
+  BEGIN
+    Clock<='0';
+    wait for 40 ns;
+    readline(test_vectors, L);
+    WHILE NOT endfile(test_vectors) LOOP
+      readline(test_vectors, L);
+      read(L,Fun);
+      Funv<=Ftype(Fun);    
+      read(L,Datain);
+      Data<=Datain;
+      read(L,D);
+      Rd<=D;
+      read(L,Datao);
+      Datav<=Datao;
+      read(L,Ro);
+      RDv<=Ro;
+      read(L,w);
+      writev<=w;
+      wait for 10 ns;
+      Clock<='1';
+      wait for 50 ns;
+      Clock<='0';
+      wait for 40 ns;
+    END LOOP;
+    report "END of Testbench.";
+  END PROCESS;
+  Check : PROCESS(Clock)
+  BEGIN
+    IF (falling_edge(Clock)) THEN
+      ASSERT Data_out=Datav
+        REPORT"ERROR RS1v " & to_string(vecno)
+        SEVERITY WARNING;
+      ASSERT Rd_out=RDv
+        REPORT"ERROR RS2v " & to_string(vecno)
+        SEVERITY WARNING;
+      ASSERT Write=writev
+        REPORT"ERROR RDv " & to_string(vecno)
+        SEVERITY WARNING;
+      vecno <= vecno+1;
+    END IF;
+  END PROCESS;
+END ARCHITECTURE Testbench;  

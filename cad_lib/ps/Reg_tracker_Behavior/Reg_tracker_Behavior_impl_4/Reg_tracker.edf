@@ -1,0 +1,53 @@
+(edif Reg_tracker 
+ (edifVersion 2 0 0)
+ (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status 
+  (written 
+   (timestamp 2019 04 12 17 01 20)
+   (program "Precision RTL Synthesis" (version "64-bit 2018.1.0.19"))
+   (author "Mentor Graphics Corporation")))
+ (external xis6 
+  (edifLevel 0)
+  (technology (numberDefinition ))
+  (cell OBUF (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I (direction INPUT))
+     (port O (direction OUTPUT)))))
+  (cell GND (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port G (direction OUTPUT))))))
+ (library work 
+  (edifLevel 0)
+  (technology (numberDefinition ))
+  (cell Reg_tracker (cellType GENERIC)
+   (view Behavior  (viewType NETLIST)
+    (interface 
+     (port (array (rename RFRA_A "RFRA_A(4:0)") 5 )(direction INPUT))
+     (port (array (rename RFRA_B "RFRA_B(4:0)") 5 )(direction INPUT))
+     (port (array (rename RFWA "RFWA(4:0)") 5 )(direction INPUT))
+     (port (array (rename RFWA2 "RFWA2(4:0)") 5 )(direction INPUT))
+     (port reserve (direction INPUT))
+     (port free (direction INPUT))
+     (port read_A (direction INPUT))
+     (port read_B (direction INPUT))
+     (port Clock (direction INPUT))
+     (port stall (direction OUTPUT)))
+    (property AREA (string "0.000000"))
+    (property DESIGN_IS_RTL (string "NO"))
+    (property PART (string "6SLX16CSG324-3"))
+    (contents 
+     (instance stall_obuf (viewRef NETLIST  (cellRef OBUF (libraryRef xis6 ))))
+     (instance ps_gnd (viewRef NETLIST  (cellRef GND (libraryRef xis6 ))))
+     (net stall 
+      (joined 
+       (portRef stall )
+       (portRef O (instanceRef stall_obuf ))))
+     (net nx18411z1 
+      (joined 
+       (portRef G (instanceRef ps_gnd ))
+       (portRef I (instanceRef stall_obuf ))))))))
+ (design Reg_tracker (cellRef Reg_tracker (libraryRef work ))
+  (property PART (string "6SLX16CSG324-3"))))

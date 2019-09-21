@@ -1,0 +1,3 @@
+work "D:/CAD/cad_lib/hdl/Reg_dec_entity.vhd" -2008
+work "D:/CAD/cad_lib/hdl/Reg_entity.vhd" -2008
+work "D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" -2008

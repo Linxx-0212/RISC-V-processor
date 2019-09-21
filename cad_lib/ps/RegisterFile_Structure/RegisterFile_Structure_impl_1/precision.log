@@ -1,0 +1,69 @@
+# Info: [9566]: Logging project transcript to file G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation RegisterFile_Structure_impl_1 in project G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.
+new_impl -name RegisterFile_Structure_impl_1
+# Info: [15298]: Setting up the design to use synthesis library "xis6.syn"
+# Info: [574]: The global max fanout is currently set to 10000 for Xilinx - SPARTAN6.
+# Info: [15324]: Setting Part to: "6SLX16CSG324".
+# Info: [15325]: Setting Process to: "3".
+# Warning: [557]: transform_tristates option is set to value all internally for the current technology.
+# Info: [7512]: The place and route tool for current technology is ISE.
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/techlibs/xis6.syn.
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
+# Info: XILINX
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/Reg_dec_entity.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/Mux32_entity.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/Reg_entity.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd" ...
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 15:50:07
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 16:23:48
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module cad_lib.RegisterFile(Structure): Pre-processing...
+# Info: [44506]: Module cad_lib.Reg_dec(Behavior): Pre-processing...
+# Info: [44506]: Module cad_lib.Reg(Behavior){generic map (width => 32)}: Pre-processing...
+# Info: [44506]: Module cad_lib.Mux32(Behavior): Pre-processing...
+# Warning: [45729]: "G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd", line 22: signal WriteDC[0] has never been used.
+# Info: [44508]: Module cad_lib.Reg_dec(Behavior): Compiling...
+# Info: [44508]: Module cad_lib.Reg(Behavior){generic map (width => 32)}: Compiling...
+# Info: [44508]: Module cad_lib.Mux32(Behavior): Compiling...
+# Info: [44523]: Root Module cad_lib.RegisterFile(Structure): Compiling...
+# Info: [45205]: "G:/CAD/cad_lib/hdl/Mux32_entity.vhd", line 24: Module cad_lib.Mux32(Behavior), Net(s) Q[31:0]: Latch inferred.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 930.
+# Info: [44835]: Total CPU time for compilation: 1.8 secs.
+# Info: [44513]: Overall running time for compilation: 4.0 secs.
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [659]: Finished compiling design.
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1.
+# Info: [4556]: 34 Instances are flattened in hierarchical block .cad_lib.RegisterFile.Structure.
+# Info: [20013]: Precision will use 6 processor(s).
+# Info: #  [15002]: Optimizing design view:.cad_lib.Mux32.Behavior_unfold_1694_0
+# Info: #  [15002]: Optimizing design view:.cad_lib.RegisterFile.Structure
+# Info: [4556]: 2 Instances are flattened in hierarchical block .cad_lib.RegisterFile.Structure.
+# Info: [15002]: Optimizing design view:.cad_lib.RegisterFile.Structure
+# Info: [8048]: Added global buffer BUFGP for Port port:Clock
+# Info: [3027]: Writing file: G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/RegisterFile.edf.
+# Info: [3027]: Writing file: G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/RegisterFile.ucf.
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 21.8 s secs.
+# Info: [11020]: Overall running time for synthesis: 28.2 s secs.
+# Info:  HDL Designer Synthesis run finished
+source G:/CAD/cad_lib/ps/RegisterFile_Structure/hds/precision.tcl
+# COMMAND: report_area G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/RegisterFile_area.rep -cell_usage
+report_area G:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/RegisterFile_area.rep -cell_usage
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation RegisterFile_Structure_impl_1.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation RegisterFile_Structure_impl_1 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure_impl_2.
+# Info: [9557]: Created implementation RegisterFile_Structure_impl_2 in project D:/CAD/cad_lib/ps/RegisterFile_Structure/RegisterFile_Structure.psp.

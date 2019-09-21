@@ -1,0 +1,21 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/Write_stage/Write_stage_impl_1/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/Write_stage/Write_stage_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Write_stage_impl_1 in project D:/CAD/cad_lib/ps/Write_stage/Write_stage.psp.
+new_impl -name Write_stage_impl_1
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Write_stage_entity.vhd" ...
+# Error: [43094]: "D:/CAD/cad_lib/hdl/Write_stage_entity.vhd", line 31: Design Unit Reg not found in logical library work.
+# Error: [40008]: HDL analysis failed.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/Write_stage/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Write_stage_impl_1.

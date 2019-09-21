@@ -1,0 +1,117 @@
+//  Precision RTL Synthesis 64-bit 2018.1.0.19 (Production Release) Fri Aug 10 05:55:53 PDT 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 10 Xiaoxi Lin@DESKTOP-A0VSQRS  10.0.17763 x64
+//  
+//  Start time Fri Mar 29 11:06:26 2019
+
+***************************************************************
+Device Utilization for 5M2210ZF324A
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               216     271      79.70%
+LCs                               0       2210      0.00%
+---------------------------------------------------------------
+
+*******************************************************
+
+Library: work    Cell: Execute_stage    View: Structure
+
+*******************************************************
+
+  Cell                                     Library  References     Total Area
+
+ ALU                                       work           1 x     32     32 XOR2
+                                                                   1      1 sra_32u_5u_32u
+                                                                  32     32 MUX
+                                                                  32     32 select_8_8
+                                                                   1      1 addsub_32u_32u_32u_0
+                                                                   3      3 INV
+                                                                   1      1 srl_32u_5u_32u
+                                                                   1      1 sll_32u_5u_32u
+                                                                  32     32 OR2
+                                                                  43     43 AND2
+                                                                   1      1 FALSE
+ Alu_control                               work           1 x      3      3 LATRS
+                                                                   1      1 and_4u_4u
+                                                                  25     25 AND2
+                                                                   8      8 INV
+                                                                   2      2 or_6u_6u
+                                                                   1      1 or_4u_4u
+                                                                   1      1 OR2
+                                                                   1      1 FALSE
+ Compare                                   work           1 x      2      2 XOR2
+                                                                   1      1 eq_32u_32u
+                                                                   1      1 gt_32s_32s
+ DFF                                       PRIMITIVES     6 x      1      6 DFF
+ DFFRSE                                    PRIMITIVES     5 x      1      5 DFFRSE
+ Ex_controller                             work           1 x      1      1 LATRS
+                                                                   1      1 and_5u_5u
+                                                                   1      1 and_4u_4u
+                                                                  26     26 AND2
+                                                                   1      1 or_4u_4u
+                                                                   1      1 or_5u_5u
+                                                                   1      1 or_6u_6u
+                                                                   1      1 mux_16u_16u
+                                                                   4      4 OR2
+                                                                  11     11 INV
+                                                                   1      1 TRUE
+                                                                   1      1 FALSE
+ FALSE                                     PRIMITIVES     1 x      1      1 FALSE
+ Mux2_32                                   work           1 x     32     32 MUX
+ Mux4_32                                   work           1 x      1      1 TRUE
+                                                                  32     32 mux_4u_4u
+                                                                   1      1 FALSE
+ Reg_32                                    work           1 x      1      1 TRUE
+                                                                  32     32 DFFRSE
+                                                                   1      1 FALSE
+ Reg_32                                    work           1 x      1      1 TRUE
+                                                                  32     32 DFFRSE
+                                                                   1      1 FALSE
+ Reg_32                                    work           1 x      1      1 TRUE
+                                                                  32     32 DFFRSE
+                                                                   1      1 FALSE
+ TRUE                                      PRIMITIVES     1 x      1      1 TRUE
+ rom_new_0_work_Execute_stage_Structure    OPERATORS      1 x      1      1 rom_1_6_64_0_Execute_stage_Structure
+                                                                   6      6 DFF
+                                                                   1      1 TRUE
+                                                                   1      1 FALSE
+
+ Number of ports :                          216
+ Number of nets :                           323
+ Number of instances :                       23
+ Number of references to this view :          0
+
+Total accumulated area : 
+ Black Box AND2 :                            94
+ Black Box DFF :                             12
+ Black Box DFFRSE :                         101
+ Black Box FALSE :                            9
+ Black Box INV :                             22
+ Black Box LATRS :                            4
+ Black Box MUX :                             64
+ Black Box OR2 :                             37
+ Black Box TRUE :                             7
+ Black Box XOR2 :                            34
+ Black Box addsub_32u_32u_32u_0 :             1
+ Black Box and_4u_4u :                        2
+ Black Box and_5u_5u :                        1
+ Black Box eq_32u_32u :                       1
+ Black Box gt_32s_32s :                       1
+ Black Box mux_16u_16u :                      1
+ Black Box mux_4u_4u :                       32
+ Black Box or_4u_4u :                         2
+ Black Box or_5u_5u :                         1
+ Black Box or_6u_6u :                         3
+ Black Box rom_1_6_64_0_Execute_stage_Structure :     1
+ Black Box select_8_8 :                      32
+ Black Box sll_32u_5u_32u :                   1
+ Black Box sra_32u_5u_32u :                   1
+ Black Box srl_32u_5u_32u :                   1
+ Number of accumulated instances :          465

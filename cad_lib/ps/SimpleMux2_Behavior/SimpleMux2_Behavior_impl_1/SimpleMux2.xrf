@@ -1,0 +1,11 @@
+vendor_name = exemplar
+source_file = 1, F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd
+design_name = SimpleMux2
+instance =      comp,     Data_Out_obuf(3),     Data_Out_obuf(3),           SimpleMux2,         1, 28:-1:28:
+instance =      comp,     Data_Out_obuf(2),     Data_Out_obuf(2),           SimpleMux2,         1, 28:-1:28:
+instance =      comp,     Data_Out_obuf(1),     Data_Out_obuf(1),           SimpleMux2,         1, 28:-1:28:
+instance =      comp,     Data_Out_obuf(0),     Data_Out_obuf(0),           SimpleMux2,         1, 28:-1:28:
+instance =       net,          Data_Out(3),          Data_Out(3),           SimpleMux2,         1, 28:-1:28:
+instance =       net,          Data_Out(2),          Data_Out(2),           SimpleMux2,         1, 28:-1:28:
+instance =       net,          Data_Out(1),          Data_Out(1),           SimpleMux2,         1, 28:-1:28:
+instance =       net,          Data_Out(0),          Data_Out(0),           SimpleMux2,         1, 28:-1:28:

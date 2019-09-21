@@ -1,0 +1,66 @@
+# Info: [9566]: Logging project transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation Decoder_Behavior_impl_1 in project G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+new_impl -name Decoder_Behavior_impl_1
+# Info: [15298]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [574]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15324]: Setting Part to: "5M2210ZF324A".
+# Info: [15325]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Warning: [42750]: "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 71: Function may return without executing a return statement
+# Warning: [43642]: "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 76: Design unit RV32I is already present in library cad_lib. Overwriting old definition of this design unit.
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/decoder_entity.vhd" ...
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 15:50:07
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 16:23:48
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module cad_lib.Decoder(Behavior): Pre-processing...
+# Info: [44523]: Root Module cad_lib.Decoder(Behavior): Compiling...
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) RS1[4:0]: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) RS2[4:0]: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) RD[4:0]: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) RS1v: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) RS2v: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) RDv: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) Immediate[31:0]: Latch inferred.
+# Info: [45205]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 25: Module cad_lib.Decoder(Behavior), Net(s) Func[5:0]: Latch inferred.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 206.
+# Info: [44835]: Total CPU time for compilation: 0.6 secs.
+# Info: [44513]: Overall running time for compilation: 2.0 secs.
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [659]: Finished compiling design.
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1.
+# Info: [15002]: Optimizing design view:.cad_lib.Decoder.Behavior
+# Warning: Design contains combinatorial loop.
+# Info: [3027]: Writing file: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/Decoder.edf.
+# Info: Info, Writing xrf file 'G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/Decoder.xrf'
+# Info: [3027]: Writing file: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/Decoder.xrf.
+# Info: -- Writing file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/Decoder.tcl
+# Info: exq_pr_compile_project gen_vcf Decoder 1
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.8 s secs.
+# Info: [11020]: Overall running time for synthesis: 2.3 s secs.
+# Info:  HDL Designer Synthesis run finished
+source G:/CAD/cad_lib/ps/Decoder_Behavior/hds/precision.tcl
+# COMMAND: source G:/CAD/cad_lib/ps/Decoder_Behavior/hds/precision.tcl
+# Info:  HDL Designer Synthesis run started
+# Error: [9518]: Another project (G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp) is already open.
+source G:/CAD/cad_lib/ps/Decoder_Behavior/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Decoder_Behavior_impl_1.
+# Info: [9565]: Appending project transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/precision.log
+# Info: [9565]: Appending suppressed messages transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation Decoder_Behavior_impl_1 in project G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Info: [9531]: Created directory: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_2.
+# Info: [9554]: Created implementation Decoder_Behavior_impl_2 in project G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.

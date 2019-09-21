@@ -1,0 +1,74 @@
+# Info: [9566]: Logging session transcript to file F:/Mentor/bin/precision.log
+//  Precision RTL Synthesis 64-bit 2015.2.10 (Production Release) Tue Nov  3 06:31:13 PST 2015
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2015, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on  34679@DESKTOP-13EGCCO  6.02.9200 
+//  
+//  Start time Wed Jan 23 15:35:40 2019
+# -------------------------------------------------
+# Info: [9566]: Logging session transcript to file F:/Mentor/bin/precision.log
+# COMMAND: source "F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/hds/precision.tcl"
+# Info:  HDL Designer Synthesis run started
+# Info: [9574]: Input directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior
+# Info: [9569]: Moving session transcript to file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/precision.log
+# Info: [9555]: Created project F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior.psp in folder F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior.
+# Warning: [9508]: Results directory is not set. Use new_project, open_project, or set_results_dir.
+# Info: [9531]: Created directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1.
+# Info: [9554]: Created implementation SimpleMux2_Behavior_impl_1 in project F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior.psp.
+# Info: [9575]: The Results Directory has been set to: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/
+# Info: [9566]: Logging project transcript to file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation SimpleMux2_Behavior_impl_1 in project F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior.psp.
+new_impl -name SimpleMux2_Behavior_impl_1
+# Info: [15298]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [574]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15324]: Setting Part to: "5M2210ZF324A".
+# Info: [15325]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd" ...
+# Info: [656]: Current working directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 15:50:07
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 16:23:48
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module cad_lib.SimpleMux2(Behavior): Pre-processing...
+# Info: [44523]: Root Module cad_lib.SimpleMux2(Behavior): Compiling...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 16.
+# Info: [44835]: Total CPU time for compilation: 0.1 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [656]: Current working directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [659]: Finished compiling design.
+# Info: [656]: Current working directory: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1.
+# Info: [15002]: Optimizing design view:.cad_lib.SimpleMux2.Behavior
+# Info: [3027]: Writing file: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/SimpleMux2.edf.
+# Info: Info, Writing xrf file 'F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/SimpleMux2.xrf'
+# Info: [3027]: Writing file: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/SimpleMux2.xrf.
+# Info: -- Writing file F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior_impl_1/SimpleMux2.tcl
+# Info: exq_pr_compile_project gen_vcf SimpleMux2 1
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.1 s secs.
+# Info: [11020]: Overall running time for synthesis: 0.1 s secs.
+# Info:  HDL Designer Synthesis run finished
+source "F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/hds/precision.tcl"
+# COMMAND: save_project
+# Info: [9562]: Saved implementation SimpleMux2_Behavior_impl_1 in project F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior.psp.
+save_project
+# COMMAND: close_project -discard
+# Info: [9530]: Closed project: F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/ps/SimpleMux2_Behavior/SimpleMux2_Behavior.psp.
+close_project -discard
+# COMMAND: exit
+exit

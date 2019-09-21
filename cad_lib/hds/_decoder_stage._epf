@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom STRUCTURE
+DEFAULT_FILE atom Decoder_stage_entity.vhd

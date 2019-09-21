@@ -1,0 +1,39 @@
+# Info: [9566]: Logging project transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_2/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_2/precision.log.suppressed
+# Info: [9550]: Activated implementation Decoder_Behavior_impl_2 in project G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Info: [15298]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [574]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15324]: Setting Part to: "5M2210ZF324A".
+# Info: [15325]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Warning: [42750]: "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 71: Function may return without executing a return statement
+# Warning: [43642]: "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 76: Design unit RV32I is already present in library cad_lib. Overwriting old definition of this design unit.
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/decoder_entity.vhd" ...
+# Error: [42659]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 200: The size of the string '0000000000000000000000000' does not match the size required
+# Error: [40008]: HDL analysis failed.
+# Info:  HDL Designer Synthesis run finished
+source G:/CAD/cad_lib/ps/Decoder_Behavior/hds/precision.tcl
+# COMMAND: compile
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Warning: [42750]: "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 71: Function may return without executing a return statement
+# Warning: [43642]: "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd", line 76: Design unit RV32I is already present in library cad_lib. Overwriting old definition of this design unit.
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/decoder_entity.vhd" ...
+# Error: [42659]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 200: The size of the string '00000000000000000000000000' does not match the size required
+# Error: [40008]: HDL analysis failed.
+compile
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Decoder_Behavior_impl_2.
+# Info: [9565]: Appending project transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_2/precision.log
+# Info: [9565]: Appending suppressed messages transcript to file G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_2/precision.log.suppressed
+# Info: [9550]: Activated implementation Decoder_Behavior_impl_2 in project G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.
+# Info: [9531]: Created directory: G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior_impl_3.
+# Info: [9554]: Created implementation Decoder_Behavior_impl_3 in project G:/CAD/cad_lib/ps/Decoder_Behavior/Decoder_Behavior.psp.

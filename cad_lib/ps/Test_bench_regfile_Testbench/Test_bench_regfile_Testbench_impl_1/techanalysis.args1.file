@@ -1,0 +1,12 @@
+10:-pipe_flow
+6:-quiet
+8:-out_dir
+92:D:/CAD/cad_lib/ps/Test_bench_regfile_Testbench/Test_bench_regfile_Testbench_impl_1//rtlc.out
+4:-vhf
+111:D:/CAD/cad_lib/ps/Test_bench_regfile_Testbench/Test_bench_regfile_Testbench_impl_1//hdlAnalyze_techcellvhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+92:D:/CAD/cad_lib/ps/Test_bench_regfile_Testbench/Test_bench_regfile_Testbench_impl_1//.jaguarc
+7:-sv2009
+73:+incdir+D:/CAD/cad_lib/hdl+D:/CAD/cad_lib/ps/Test_bench_regfile_Testbench
+17:+define+synthesis

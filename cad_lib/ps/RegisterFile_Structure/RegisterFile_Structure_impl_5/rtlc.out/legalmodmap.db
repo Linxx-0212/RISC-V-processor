@@ -1,0 +1,4 @@
+Reg_dec Reg_dec
+Reg-32 Reg_32
+RegisterFile RegisterFile
+#LEGALIZEDMOD_COUNTER 0

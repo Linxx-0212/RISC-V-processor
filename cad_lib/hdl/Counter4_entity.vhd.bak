@@ -1,0 +1,16 @@
+--
+-- VHDL Entity cad_lib.Counter4.arch_name
+--
+-- Created:
+--          by - 34679.UNKNOWN (DESKTOP-13EGCCO)
+--          at - 21:26:53 2019/02/ 3
+--
+-- using Mentor Graphics HDL Designer(TM) 2015.1b (Build 4)
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY Counter4 IS
+END ENTITY Counter4;
+

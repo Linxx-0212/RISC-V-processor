@@ -1,0 +1,69 @@
+# Info: [9566]: Logging project transcript to file G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/precision.log
+# Info: [9566]: Logging suppressed messages transcript to file G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/precision.log.suppressed
+# Info: [9550]: Activated implementation Decoder_stage_STRUCTURE_impl_1 in project G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE.psp.
+new_impl -name Decoder_stage_STRUCTURE_impl_1
+# Info: [15298]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [574]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15324]: Setting Part to: "5M2210ZF324A".
+# Info: [15325]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [633]: Loading library initialization file C:/MentorGraphics/PS2015.2.10_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.9
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.9
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/RV32I_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/De_Control_entity.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/decoder_entity.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/Mux2_entity.vhd" ...
+# Info: [42502]: Analyzing input file "G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd" ...
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 15:50:07
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.9
+# Info: [40000]: Last compiled on Oct 28 2015 16:23:48
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module cad_lib.Decoder_stage(STRUCTURE): Pre-processing...
+# Info: [44506]: Module cad_lib.Decoder(Behavior): Pre-processing...
+# Info: [44506]: Module cad_lib.De_Control(Behavior): Pre-processing...
+# Info: [44506]: Module cad_lib.Mux2(Behavior){generic map (width => 32)}: Pre-processing...
+# Warning: [45729]: "G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd", line 27: signal RDv has never been used.
+# Info: [44508]: Module cad_lib.Decoder(Behavior): Compiling...
+# Info: [44508]: Module cad_lib.De_Control(Behavior): Compiling...
+# Info: [44508]: Module cad_lib.Mux2(Behavior){generic map (width => 32)}: Compiling...
+# Info: [44523]: Root Module cad_lib.Decoder_stage(STRUCTURE): Compiling...
+# Info: [45252]: "G:/CAD/cad_lib/hdl/decoder_entity.vhd", line 49: Inferred rom instance 'rtlcI4' of type 'rom_21_10_1024_4'.
+# Info: [45252]: "G:/CAD/cad_lib/hdl/De_Control_entity.vhd", line 35: Inferred rom instance 'rtlcI5' of type 'rom_1_6_64_5'.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 387.
+# Info: [44835]: Total CPU time for compilation: 1.0 secs.
+# Info: [44513]: Overall running time for compilation: 3.0 secs.
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [659]: Finished compiling design.
+# Info: [656]: Current working directory: G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1.
+# Info: [4557]: instance:MUX0 Instance is flattened in hierarchical block view:.cad_lib.Decoder_stage.STRUCTURE.
+# Info: [4557]: instance:MUX1 Instance is flattened in hierarchical block view:.cad_lib.Decoder_stage.STRUCTURE.
+# Info: [4557]: instance:MUX2 Instance is flattened in hierarchical block view:.cad_lib.Decoder_stage.STRUCTURE.
+# Info: [4557]: instance:MUX3 Instance is flattened in hierarchical block view:.cad_lib.Decoder_stage.STRUCTURE.
+# Info: [4557]: instance:Decoder Instance is flattened in hierarchical block view:.cad_lib.Decoder_stage.STRUCTURE.
+# Info: [20013]: Precision will use 3 processor(s).
+# Info: [15002]: Optimizing design view:.cad_lib.Decoder_stage.STRUCTURE
+# Info: [3027]: Writing file: G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/Decoder_stage.edf.
+# Info: Info, Writing xrf file 'G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/Decoder_stage.xrf'
+# Info: [3027]: Writing file: G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/Decoder_stage.xrf.
+# Info: -- Writing file G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/Decoder_stage.tcl
+# Info: exq_pr_compile_project gen_vcf Decoder_stage 1
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 2.2 s secs.
+# Info: [11020]: Overall running time for synthesis: 5.4 s secs.
+# Info:  HDL Designer Synthesis run finished
+source G:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation Decoder_stage_STRUCTURE_impl_1.
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Decoder_stage_STRUCTURE_impl_1 in project D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE_impl_2.
+# Info: [9557]: Created implementation Decoder_stage_STRUCTURE_impl_2 in project D:/CAD/cad_lib/ps/Decoder_stage_STRUCTURE/Decoder_stage_STRUCTURE.psp.

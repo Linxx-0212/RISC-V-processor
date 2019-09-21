@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom behavior
+DEFAULT_FILE atom Alu_control_entity.vhd

@@ -1,0 +1,12 @@
+10:-pipe_flow
+6:-quiet
+8:-out_dir
+78:D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_2//rtlc.out
+4:-vhf
+97:D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_2//hdlAnalyze_techcellvhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+78:D:/CAD/cad_lib/ps/Write_stage_Structure/Write_stage_Structure_impl_2//.jaguarc
+7:-sv2009
+66:+incdir+D:/CAD/cad_lib/hdl+D:/CAD/cad_lib/ps/Write_stage_Structure
+17:+define+synthesis

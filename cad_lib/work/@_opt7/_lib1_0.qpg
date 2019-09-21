@@ -1,0 +1,2527 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Coumputer Architecture/Lab/Project/CAD/cad_lib/work
+T_opt
+!s110 1549574093
+V2HDej7G;DK=?B5i0LSMg93
+04 9 9 work fetch_new structure 1
+=1-a45e60e33bb3-5c5c9fcc-1a4-2fa0
+Z1 o-quiet -auto_acc_if_foreign -work cad_lib -L cad_lib
+n@_opt
+Z2 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1550254312
+VL6W7W>Oj`j30i9IBINEWX2
+Z3 04 10 9 work test_bench testbench 1
+=1-a45e60e33bb3-5c6700e4-199-1ab4
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1549573859
+VoSA5]Z=NVPLahhNf@hYE<2
+04 5 8 work fetch behavior 1
+=1-a45e60e33bb3-5c5c9ee1-f6-ad8
+R1
+n@_opt2
+R2
+R0
+T_opt3
+!s110 1550254205
+V:f42ib?=5J[A0DDnazT;K1
+R3
+=1-a45e60e33bb3-5c67007b-380-29f4
+R1
+n@_opt3
+R2
+R0
+T_opt4
+!s110 1554478487
+VH;dT7M[R_9i=UCbI3GIfH3
+04 17 9 work test_bench_memory testbench 1
+=1-a45e60e33bb3-5ca77592-232-1fa0
+R1
+n@_opt4
+R2
+R0
+T_opt5
+!s110 1553871928
+VXJZ>:]YFjDC>NZQW6IbCW3
+04 18 9 work test_bench_execute testbench 1
+=1-a45e60e33bb3-5c9e3432-2a4-35dc
+R1
+n@_opt5
+R2
+R0
+T_opt6
+!s110 1554478306
+Vj[B3N2d?]4>g79Cz6eNhO1
+04 16 9 work test_bench_write testbench 1
+=1-a45e60e33bb3-5ca774de-31c-2320
+R1
+n@_opt6
+R2
+R0
+T_opt7
+!s110 1555334642
+VKKHc2TW;1j?LWTkZU78@12
+Z4 04 18 9 work test_bench_tracker testbench 1
+=1-a45e60e33bb3-5cb485ee-146-2c60
+R1
+n@_opt7
+R2
+T_opt8
+!s110 1555090243
+VK<nONRzZ_mOFYD]MS4kF61
+04 11 8 work reg_tracker behavior 1
+=1-a45e60e33bb3-5cb0cb3c-1de-99c
+R1
+n@_opt8
+R2
+R0
+T_opt9
+!s110 1555090412
+VUdo1eM53k>UOBDNLb[i<@2
+R4
+=1-a45e60e33bb3-5cb0cbe6-34e-2d6c
+R1
+n@_opt9
+R2
+R0
+Ealu
+Z5 w1553128274
+Z6 DPx4 work 6 alu_op 0 22 ;khAclVCGCzInSE_zmMcD2
+Z7 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 dD:/CAD/cad_lib/work
+Z11 8D:/CAD/cad_lib/hdl/ALU_entity.vhd
+Z12 FD:/CAD/cad_lib/hdl/ALU_entity.vhd
+l0
+L15
+V?`6TzniPo190f<?aRT_983
+!s100 YQEWN3SU:P=@Dj2fAEfb80
+Z13 OL;C;10.4c;61
+33
+Z14 !s110 1553871901
+!i10b 1
+Z15 !s108 1553871901.000000
+Z16 !s90 -work|cad_lib|-nologo|-2008|-f|C:/Users/XIAOXI~1/AppData/Local/Temp/Files0|
+Z17 !s107 D:/CAD/cad_lib/hdl/Test_bench_execute_entity.vhd|D:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|D:/CAD/cad_lib/hdl/Mux4_entity.vhd|D:/CAD/cad_lib/hdl/Alu_control_entity.vhd|D:/CAD/cad_lib/hdl/ALU_entity.vhd|D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd|
+!i113 0
+Z18 o-nologo -work cad_lib -2008
+Z19 tExplicit 1
+Abehavior
+R6
+R7
+R8
+R9
+Z20 DEx4 work 3 alu 0 22 ?`6TzniPo190f<?aRT_983
+l27
+L25
+VDWB7DTWh[0Pl3zNIozf@]0
+!s100 Smc?;e7lE`kY@YQi>Nb013
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ealu_control
+Z21 w1553865898
+R7
+R6
+Z22 DPx4 work 5 rv32i 0 22 4gZJ=zDa1FQ4bbCzVjG>[3
+R8
+R9
+R10
+Z23 8D:/CAD/cad_lib/hdl/Alu_control_entity.vhd
+Z24 FD:/CAD/cad_lib/hdl/Alu_control_entity.vhd
+l0
+L17
+V:cL;9;D80dIniT87Z]Y<30
+!s100 ICCIW1_D:V>f;?J0P3G>;2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Abehavior
+R7
+R6
+R22
+R8
+R9
+Z25 DEx4 work 11 alu_control 0 22 :cL;9;D80dIniT87Z]Y<30
+l25
+L24
+V3=i_VS^JG=021[5_^SGcT1
+!s100 zeT`aND?1QIR3?WBbkEi<0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Palu_op
+R8
+R9
+Z26 w1553867982
+R10
+Z27 8D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd
+Z28 FD:/CAD/cad_lib/hdl/Alu_op_pkg.vhd
+l0
+L13
+V;khAclVCGCzInSE_zmMcD2
+!s100 4M]Fn2_F6PmM^iLHa4KEd1
+R13
+33
+b1
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Bbody
+R6
+R8
+R9
+l0
+L24
+V[a;P5h7L0X@mL<O@06OM20
+!s100 DM<4[Oh=9<giL>UzccP@h2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Z29 nbody
+Earbiter
+Z30 w1554476460
+Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R8
+R9
+Z32 dG:/CAD/cad_lib/work
+Z33 8G:/CAD/cad_lib/hdl/Arbiter_entity.vhd
+Z34 FG:/CAD/cad_lib/hdl/Arbiter_entity.vhd
+l0
+L14
+V49aWLT5^ThL?O<U>W0Vj>0
+!s100 4gQ]I:BM_MSC[o2H:Zz2H0
+R13
+33
+Z35 !s110 1554476467
+!i10b 1
+Z36 !s108 1554476467.000000
+Z37 !s90 -work|cad_lib|-nologo|-2008|-f|C:/Users/34679/AppData/Local/Temp/Files0|
+Z38 !s107 G:/CAD/cad_lib/hdl/Arbiter_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R31
+R8
+R9
+Z39 DEx4 work 7 arbiter 0 22 49aWLT5^ThL?O<U>W0Vj>0
+l30
+L29
+V3b;DL?dLjnCK_gInZz;Qb0
+!s100 gCdGWBBC41A^?2zAI:2PW3
+R13
+33
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R18
+R19
+Ecompare
+Z40 w1553844864
+R7
+R8
+R9
+R32
+Z41 8G:/CAD/cad_lib/hdl/Compare_entity.vhd
+Z42 FG:/CAD/cad_lib/hdl/Compare_entity.vhd
+l0
+L14
+V<j]AOA6V4Nf6NBNXS4>^_3
+!s100 GCEfK7B5fW<3dG:SN=nbk1
+R13
+33
+Z43 !s110 1553844871
+!i10b 1
+Z44 !s108 1553844871.000000
+R37
+Z45 !s107 G:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|G:/CAD/cad_lib/hdl/Mux4_entity.vhd|G:/CAD/cad_lib/hdl/Ex_controller_entity.vhd|G:/CAD/cad_lib/hdl/Compare_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R7
+R8
+R9
+Z46 DEx4 work 7 compare 0 22 <j]AOA6V4Nf6NBNXS4>^_3
+l21
+L20
+VSTG72zDPa8<O9RT_[AE?01
+!s100 `C`N@jYzm13XK9Of:<EBf3
+R13
+33
+R43
+!i10b 1
+R44
+R37
+R45
+!i113 0
+R18
+R19
+Ede_control
+Z47 w1551848264
+R22
+R8
+R9
+R32
+Z48 8G:/CAD/cad_lib/hdl/De_Control_entity.vhd
+Z49 FG:/CAD/cad_lib/hdl/De_Control_entity.vhd
+l0
+L14
+V2ojmRPa=G`5b;Ehk_CLd90
+!s100 d=m]04SIKcII6C>0Jmk6H0
+R13
+33
+Z50 !s110 1551859112
+!i10b 1
+Z51 !s108 1551859112.000000
+R37
+Z52 !s107 G:/CAD/cad_lib/hdl/Test_bench_Des_entity.vhd|G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd|G:/CAD/cad_lib/hdl/De_Control_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R22
+R8
+R9
+Z53 DEx4 work 10 de_control 0 22 2ojmRPa=G`5b;Ehk_CLd90
+l21
+L20
+VAP=V;BT<I?XSYVBE4H;:?0
+!s100 eSnnmkjzOZY^1MceRi=PR0
+R13
+33
+R50
+!i10b 1
+R51
+R37
+R52
+!i113 0
+R18
+R19
+Edecoder
+Z54 w1551118514
+R22
+R8
+R9
+R10
+Z55 8D:/CAD/cad_lib/hdl/decoder_entity.vhd
+Z56 FD:/CAD/cad_lib/hdl/decoder_entity.vhd
+l0
+L14
+VN1=e_d]]ToEBDEV?YCci80
+!s100 7X8DUO71dOo98mJ7@QG6l0
+R13
+33
+Z57 !s110 1551118525
+!i10b 1
+Z58 !s108 1551118525.000000
+R16
+Z59 !s107 D:/CAD/cad_lib/hdl/decoder_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R22
+R8
+R9
+Z60 DEx4 work 7 decoder 0 22 N1=e_d]]ToEBDEV?YCci80
+l24
+L22
+VLHmOH6fg_^Mb<W4P_935D3
+!s100 _gVR9S<<QNYnC_LZFW=340
+R13
+33
+R57
+!i10b 1
+R58
+R16
+R59
+!i113 0
+R18
+R19
+Edecoder_stage
+Z61 w1551859408
+R22
+R8
+R9
+R32
+Z62 8G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd
+Z63 FG:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd
+l0
+L14
+V2CKn4cBTLD`?mTAI=7OQY3
+!s100 jj`jFVUFmDBcdg7aGW0U^0
+R13
+33
+Z64 !s110 1551859417
+!i10b 1
+Z65 !s108 1551859416.000000
+R37
+Z66 !s107 G:/CAD/cad_lib/hdl/Test_bench_Des_entity.vhd|G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd|
+!i113 0
+R18
+R19
+Astructure
+R7
+R31
+Z67 DEx4 work 4 mux2 0 22 ^5zf80:2AX5VD1T7`JWz<3
+R53
+R60
+R22
+R8
+R9
+Z68 DEx4 work 13 decoder_stage 0 22 2CKn4cBTLD`?mTAI=7OQY3
+l28
+L23
+VNMn<D5d]<VCWzdjQzG;1M2
+!s100 RnM<=6g4Y2Ub_<1F>`4@70
+R13
+33
+R64
+!i10b 1
+R65
+R37
+R66
+!i113 0
+R18
+R19
+Eex_controller
+Z69 w1553844898
+R22
+R31
+R8
+R9
+R32
+Z70 8G:/CAD/cad_lib/hdl/Ex_controller_entity.vhd
+Z71 FG:/CAD/cad_lib/hdl/Ex_controller_entity.vhd
+l0
+L15
+Vz?[>bL2WIhzZX6hI2af^B2
+!s100 TJhe`DPWI3DY0X0e2kHbJ1
+R13
+33
+Z72 !s110 1553844899
+!i10b 1
+Z73 !s108 1553844899.000000
+R37
+Z74 !s107 G:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|G:/CAD/cad_lib/hdl/Mux4_entity.vhd|G:/CAD/cad_lib/hdl/Ex_controller_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R22
+R31
+R8
+R9
+Z75 DEx4 work 13 ex_controller 0 22 z?[>bL2WIhzZX6hI2af^B2
+l26
+L25
+V:TjjDQ3=V[YgE6MV;iZQT1
+!s100 diokLmcPicVIlYX8?Pzg33
+R13
+33
+R72
+!i10b 1
+R73
+R37
+R74
+!i113 0
+R18
+R19
+Eexecute_stage
+Z76 w1553866908
+R6
+R22
+R8
+R9
+R10
+Z77 8D:/CAD/cad_lib/hdl/Execute_stage_entity.vhd
+Z78 FD:/CAD/cad_lib/hdl/Execute_stage_entity.vhd
+l0
+L16
+VSzK:IYofQ:@>IYFhXzFGd0
+!s100 YB2[MDXA=B8zi:CPSl1Cc1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructure
+Z79 DEx4 work 4 mux4 0 22 gaA:HS4?kaQ<nB4EXN5QR3
+R67
+R75
+R46
+R20
+R7
+R25
+Z80 DEx4 work 7 fun_reg 0 22 g:POb`J6:Uf4Z5U@<a95I3
+R31
+Z81 DEx4 work 3 reg 0 22 P4GVV3kJ8]<aW0ORn2]kN0
+R6
+R22
+R8
+R9
+Z82 DEx4 work 13 execute_stage 0 22 SzK:IYofQ:@>IYFhXzFGd0
+l35
+L28
+VN?l5OYd6>6ED4:N>dfg;Z0
+!s100 M9F;Ja6l:>VG@WN>>GToi0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Efetch
+Z83 w1550214046
+R7
+R8
+R9
+R10
+Z84 8D:/CAD/cad_lib/hdl/Fetch_entity.vhd
+Z85 FD:/CAD/cad_lib/hdl/Fetch_entity.vhd
+l0
+L14
+VBoRYnSk`_=8JWCBBMmf3A2
+!s100 T:gUJLO@Dg:7j=2Q<?]^81
+R13
+33
+Z86 !s110 1550214060
+!i10b 1
+Z87 !s108 1550214060.000000
+R16
+Z88 !s107 D:/CAD/cad_lib/hdl/Test_bench_entity.vhd|D:/CAD/cad_lib/hdl/Fetch_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R7
+R8
+R9
+DEx4 work 5 fetch 0 22 BoRYnSk`_=8JWCBBMmf3A2
+l25
+L21
+VV=Ej;MW@^JFbGFUzS@g:m2
+!s100 9n^f;ChF09LA<lf76gYij1
+R13
+33
+R86
+!i10b 1
+R87
+R16
+R88
+!i113 0
+R18
+R19
+Efetch_new
+Z89 w1550257086
+R31
+R8
+R9
+R32
+Z90 8G:/CAD/cad_lib/hdl/Fetch_new_entity.vhd
+Z91 FG:/CAD/cad_lib/hdl/Fetch_new_entity.vhd
+l0
+L14
+VcS6STng=_Te4hT3BP3gAz2
+!s100 gE0k4KBKF3Jz9TMf11;fb0
+R13
+33
+Z92 !s110 1552934519
+!i10b 1
+Z93 !s108 1552934519.000000
+R37
+Z94 !s107 G:/CAD/cad_lib/hdl/Test_bench_entity.vhd|G:/CAD/cad_lib/hdl/Fetch_new_entity.vhd|G:/CAD/cad_lib/hdl/Mux2_entity.vhd|G:/CAD/cad_lib/hdl/Increment_entity.vhd|
+!i113 0
+R18
+R19
+Astructure
+Z95 DEx4 work 9 increment 0 22 j;MJQd5O0LY^7IW_n<[O`1
+R81
+R7
+R67
+R31
+R8
+R9
+Z96 DEx4 work 9 fetch_new 0 22 cS6STng=_Te4hT3BP3gAz2
+l24
+L21
+VYiCZCDGK3TSjL6_d]UXlG2
+!s100 o?71l`Dm5cYT1T:Ll=4oL1
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Efun_reg
+Z97 w1553845322
+R22
+R31
+R8
+R9
+R32
+Z98 8G:/CAD/cad_lib/hdl/Fun_reg_entity.vhd
+Z99 FG:/CAD/cad_lib/hdl/Fun_reg_entity.vhd
+l0
+L15
+Vg:POb`J6:Uf4Z5U@<a95I3
+!s100 ]UzQinNMCfn]No3]HbPgf0
+R13
+33
+Z100 !s110 1553845323
+!i10b 1
+Z101 !s108 1553845323.000000
+R37
+Z102 !s107 G:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|G:/CAD/cad_lib/hdl/Fun_reg_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R22
+R31
+R8
+R9
+R80
+l22
+L21
+VZ3ZmCfdAS0b79D5JRPSaC3
+!s100 MM?a1?;b0L?_nl=7F[??H3
+R13
+33
+R100
+!i10b 1
+R101
+R37
+R102
+!i113 0
+R18
+R19
+Eincrement
+Z103 w1548816340
+R7
+R8
+R9
+R32
+Z104 8G:/CAD/cad_lib/hdl/Increment_entity.vhd
+Z105 FG:/CAD/cad_lib/hdl/Increment_entity.vhd
+l0
+L14
+Vj;MJQd5O0LY^7IW_n<[O`1
+!s100 bYX[cJg@Cn<:@h:_Ob_b<0
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Abehavior
+R7
+R8
+R9
+R95
+l22
+L21
+V?MZ[@n7RDl<H_e]mLFf@V3
+!s100 ^84^FW?^VA7c@kTfzDJI]3
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Eme_controller
+Z106 w1554471356
+R22
+R8
+R9
+R32
+Z107 8G:/CAD/cad_lib/hdl/Me_controller_entity.vhd
+Z108 FG:/CAD/cad_lib/hdl/Me_controller_entity.vhd
+l0
+L14
+V0RN6Xa9VSaVCJ6b@>6Y6O3
+!s100 faLCH0^8B5dIKfhc_4O?G1
+R13
+33
+Z109 !s110 1554471365
+!i10b 1
+Z110 !s108 1554471365.000000
+R37
+Z111 !s107 G:/CAD/cad_lib/hdl/Memory_stage_entity.vhd|G:/CAD/cad_lib/hdl/Me_controller_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R22
+R8
+R9
+Z112 DEx4 work 13 me_controller 0 22 0RN6Xa9VSaVCJ6b@>6Y6O3
+l24
+L23
+V7U<SO1bmjD=2hW3GUDTKJ0
+!s100 A[K26>=D7KCLIYm<=TPQ01
+R13
+33
+R109
+!i10b 1
+R110
+R37
+R111
+!i113 0
+R18
+R19
+Ememory_stage
+Z113 w1554471174
+R22
+R31
+R8
+R9
+R32
+Z114 8G:/CAD/cad_lib/hdl/Memory_stage_entity.vhd
+Z115 FG:/CAD/cad_lib/hdl/Memory_stage_entity.vhd
+l0
+L15
+VK1?GLGoJ=O6A?LH5iW[9X2
+!s100 m9_LkeL?`?WV8XdD;iaHg1
+R13
+33
+R109
+!i10b 1
+R110
+R37
+R111
+!i113 0
+R18
+R19
+Astructure
+R7
+R67
+R112
+R80
+R81
+R22
+R31
+R8
+R9
+Z116 DEx4 work 12 memory_stage 0 22 K1?GLGoJ=O6A?LH5iW[9X2
+l34
+L32
+VJUjBDBc_bAe7ld_FIVV2l1
+!s100 F`^c;;]HN1oO^ZnkBEA;J2
+R13
+33
+R109
+!i10b 1
+R110
+R37
+R111
+!i113 0
+R18
+R19
+Emux2
+Z117 w1548724922
+R7
+R31
+R8
+R9
+R32
+Z118 8G:/CAD/cad_lib/hdl/Mux2_entity.vhd
+Z119 FG:/CAD/cad_lib/hdl/Mux2_entity.vhd
+l0
+L15
+V^5zf80:2AX5VD1T7`JWz<3
+!s100 <ZO]aVaCQF726>L9J9D?51
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Abehavior
+R7
+R31
+R8
+R9
+R67
+l24
+L23
+VOGF<Kb4`:bACMbnkgjGBK1
+!s100 oR?;n;P2B]elgJC8T[WNI2
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Emux32
+Z120 w1555040494
+R7
+R31
+R8
+R9
+R32
+Z121 8G:/CAD/cad_lib/hdl/Mux32_entity.vhd
+Z122 FG:/CAD/cad_lib/hdl/Mux32_entity.vhd
+l0
+L15
+VYcN6B@jNd5U?>C_G3=nI_3
+!s100 KWgiN;bln=CFP9bDSBTCG0
+R13
+33
+Z123 !s110 1555078242
+!i10b 1
+Z124 !s108 1555078242.000000
+R37
+Z125 !s107 G:/CAD/cad_lib/hdl/Test_bench_regfile_entity.vhd|G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd|G:/CAD/cad_lib/hdl/Mux32_entity.vhd|G:/CAD/cad_lib/hdl/Reg_dec_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R7
+R31
+R8
+R9
+Z126 DEx4 work 5 mux32 0 22 YcN6B@jNd5U?>C_G3=nI_3
+l23
+L22
+VBRIQHlIg4J^j6^Y6PUXNI3
+!s100 DGU_U2maeGn3;A4>3U^FF2
+R13
+33
+R123
+!i10b 1
+R124
+R37
+R125
+!i113 0
+R18
+R19
+Emux4
+Z127 w1553867798
+R7
+R31
+R8
+R9
+R10
+Z128 8D:/CAD/cad_lib/hdl/Mux4_entity.vhd
+Z129 FD:/CAD/cad_lib/hdl/Mux4_entity.vhd
+l0
+L15
+VgaA:HS4?kaQ<nB4EXN5QR3
+!s100 f>alK[zimzG`^BS>HG<GL1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Abehavior
+R7
+R31
+R8
+R9
+R79
+l24
+L23
+V0?D3YT[VgJnWH`1c^9c;61
+!s100 Y`ZX5Odkgb5gn=2D21MK`2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Ereg
+Z130 w1548730082
+R31
+R8
+R9
+R32
+Z131 8G:/CAD/cad_lib/hdl/Reg_entity.vhd
+Z132 FG:/CAD/cad_lib/hdl/Reg_entity.vhd
+l0
+L14
+VP4GVV3kJ8]<aW0ORn2]kN0
+!s100 M6a0`:o3mVzha15JHZFk;3
+R13
+33
+Z133 !s110 1553845252
+!i10b 1
+Z134 !s108 1553845252.000000
+R37
+Z135 !s107 G:/CAD/cad_lib/hdl/Reg_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R31
+R8
+R9
+R81
+l22
+L21
+V2zj1]KWSTgFnV7XJJYnig2
+!s100 >53SJWEH:a`>=BDRoWaZ@3
+R13
+33
+R133
+!i10b 1
+R134
+R37
+R135
+!i113 0
+R18
+R19
+Ereg_dec
+Z136 w1555078232
+R7
+R8
+R9
+R32
+Z137 8G:/CAD/cad_lib/hdl/Reg_dec_entity.vhd
+Z138 FG:/CAD/cad_lib/hdl/Reg_dec_entity.vhd
+l0
+L14
+Vb^d1VNBOmAc[USknZlhjT2
+!s100 9<eLOCZ3nUkXjD3@[IYeK2
+R13
+33
+R123
+!i10b 1
+R124
+R37
+R125
+!i113 0
+R18
+R19
+Abehavior
+R7
+R8
+R9
+Z139 DEx4 work 7 reg_dec 0 22 b^d1VNBOmAc[USknZlhjT2
+l21
+L20
+V7=PY4iQa^bOho<EFZ=X6T3
+!s100 L::<EmoRHjB^HRQ@iX^j41
+R13
+33
+R123
+!i10b 1
+R124
+R37
+R125
+!i113 0
+R18
+R19
+Ereg_tracker
+Z140 w1555334530
+R7
+R31
+Z141 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R8
+R9
+R10
+Z142 8D:/CAD/cad_lib/hdl/Reg_tracker_entity.vhd
+Z143 FD:/CAD/cad_lib/hdl/Reg_tracker_entity.vhd
+l0
+L6
+VKCMnj_6Sl`fX<EQ?=[I[R0
+!s100 GF_zmM@We<R667E@mC5Bf1
+R13
+33
+Z144 !s110 1555334622
+!i10b 1
+Z145 !s108 1555334622.000000
+R16
+Z146 !s107 D:/CAD/cad_lib/hdl/Test_bench_tracker_entity.vhd|D:/CAD/cad_lib/hdl/Reg_tracker_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R7
+R31
+R141
+R8
+R9
+Z147 DEx4 work 11 reg_tracker 0 22 KCMnj_6Sl`fX<EQ?=[I[R0
+l22
+L16
+V`^_8GIzZCDF=mm21[f^l[2
+!s100 4C@N`baFH<QY26X9LAlD82
+R13
+33
+R144
+!i10b 1
+R145
+R16
+R146
+!i113 0
+R18
+R19
+Eregisterfile
+Z148 w1555084166
+R31
+R8
+R9
+R10
+Z149 8D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd
+Z150 FD:/CAD/cad_lib/hdl/RegisterFile_entity.vhd
+l0
+L14
+Vn6VMC^]RjmE?=;5n?Y2WE1
+!s100 cOGgjfYLib23YI9RjW;8f2
+R13
+33
+!s110 1555084182
+!i10b 1
+Z151 !s108 1555084182.000000
+R16
+Z152 !s107 D:/CAD/cad_lib/hdl/Test_bench_regfile_entity.vhd|D:/CAD/cad_lib/hdl/RegisterFile_entity.vhd|
+!i113 0
+R18
+R19
+Astructure
+R67
+R126
+R81
+R7
+R139
+R31
+R8
+R9
+Z153 DEx4 work 12 registerfile 0 22 n6VMC^]RjmE?=;5n?Y2WE1
+l25
+L21
+VF[?P=5UmoTOOH_B9Wo6_F2
+!s100 l=4[VH;FH@8RimK03no4P1
+R13
+33
+Z154 !s110 1555084184
+!i10b 1
+R151
+R16
+R152
+!i113 0
+R18
+R19
+Prv32i
+R8
+R9
+Z155 w1553844696
+R32
+Z156 8G:/CAD/cad_lib/hdl/RV32I_pkg.vhd
+Z157 FG:/CAD/cad_lib/hdl/RV32I_pkg.vhd
+l0
+L13
+V4gZJ=zDa1FQ4bbCzVjG>[3
+!s100 Z[BDgPJIYmTiU4W_^H3T91
+R13
+33
+b1
+Z158 !s110 1553844724
+!i10b 1
+Z159 !s108 1553844724.000000
+R37
+Z160 !s107 G:/CAD/cad_lib/hdl/Alu_control_entity.vhd|G:/CAD/cad_lib/hdl/RV32I_pkg.vhd|
+!i113 0
+R18
+R19
+Bbody
+R22
+R8
+R9
+l0
+L70
+VOl`U`J5?G[9F2`Ebnb1^i3
+!s100 HdAeLG00z;keNH?AaHO1@1
+R13
+33
+R158
+!i10b 1
+R159
+R37
+R160
+!i113 0
+R18
+R19
+R29
+Esimplemux2
+Z161 w1548274891
+R31
+R8
+R9
+R0
+Z162 8F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd
+Z163 FF:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd
+l0
+L14
+VkoaGfYHhVPdD?VS<H8VIN1
+!s100 42Nl5;8GOiBBFgGG`M^9D0
+R13
+33
+Z164 !s110 1548274937
+!i10b 1
+Z165 !s108 1548274937.000000
+R37
+Z166 !s107 F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd|
+!i113 0
+R18
+R19
+Abehavior
+R31
+R8
+R9
+DEx4 work 10 simplemux2 0 22 koaGfYHhVPdD?VS<H8VIN1
+l22
+L21
+VUmkkFdIjGcae<0EaA8BWD1
+!s100 FEGen<hQE8gU7;1H[CV@83
+R13
+33
+R164
+!i10b 1
+R165
+R37
+R166
+!i113 0
+R18
+R19
+Etest_bench
+Z167 w1550257892
+R7
+R8
+R9
+R32
+Z168 8G:/CAD/cad_lib/hdl/Test_bench_entity.vhd
+Z169 FG:/CAD/cad_lib/hdl/Test_bench_entity.vhd
+l0
+L15
+V2UOUP?zgAB<HTQXJa^]Cd1
+!s100 A8l3RTaI9i=gWmY7ZZYZM0
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Atestbench
+R31
+R96
+R7
+R8
+R9
+DEx4 work 10 test_bench 0 22 2UOUP?zgAB<HTQXJa^]Cd1
+l25
+L18
+VX8XXL4R^AFI@[J<ac6CHl0
+!s100 e]PdiT_4k[@]TkSBjal2f3
+R13
+33
+R92
+!i10b 1
+R93
+R37
+R94
+!i113 0
+R18
+R19
+Etest_bench_alu
+Z170 w1553267136
+Z171 DPx4 work 6 alu_op 0 22 ]W0ZQJ<Yle7a?H=713DbQ2
+R7
+R8
+R9
+R10
+Z172 8D:/CAD/cad_lib/hdl/Test_bench_alu_entity.vhd
+Z173 FD:/CAD/cad_lib/hdl/Test_bench_alu_entity.vhd
+l0
+L16
+VoDf^8Zm@1>6?2VJof85a]2
+!s100 JdblT9NG3F44Vhf:?7H1_0
+R13
+33
+Z174 !s110 1553267137
+!i10b 1
+Z175 !s108 1553267137.000000
+R16
+Z176 !s107 D:/CAD/cad_lib/hdl/Test_bench_alu_entity.vhd|
+!i113 0
+R18
+R19
+Atestbench
+R20
+R171
+R7
+R8
+R9
+DEx4 work 14 test_bench_alu 0 22 oDf^8Zm@1>6?2VJof85a]2
+l28
+L19
+VeiD4_>`Y5n4A3h9`HZ=MG2
+!s100 zYYUUjaVzzV52kE5CjRGg0
+R13
+33
+R174
+!i10b 1
+R175
+R1m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dF:/Coumputer Architecture/Lab/Project/CAD/cad_lib/work
+T_opt
+!s110 1549574093
+V2HDej7G;DK=?B5i0LSMg93
+04 9 9 work fetch_new structure 1
+=1-a45e60e33bb3-5c5c9fcc-1a4-2fa0
+Z1 o-quiet -auto_acc_if_foreign -work cad_lib -L cad_lib
+n@_opt
+Z2 OL;O;10.4c;61
+R0
+T_opt1
+!s110 1550254312
+VL6W7W>Oj`j30i9IBINEWX2
+Z3 04 10 9 work test_bench testbench 1
+=1-a45e60e33bb3-5c6700e4-199-1ab4
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1549573859
+VoSA5]Z=NVPLahhNf@hYE<2
+04 5 8 work fetch behavior 1
+=1-a45e60e33bb3-5c5c9ee1-f6-ad8
+R1
+n@_opt2
+R2
+R0
+T_opt3
+!s110 1550254205
+V:f42ib?=5J[A0DDnazT;K1
+R3
+=1-a45e60e33bb3-5c67007b-380-29f4
+R1
+n@_opt3
+R2
+R0
+T_opt4
+!s110 1554478487
+VH;dT7M[R_9i=UCbI3GIfH3
+04 17 9 work test_bench_memory testbench 1
+=1-a45e60e33bb3-5ca77592-232-1fa0
+R1
+n@_opt4
+R2
+R0
+T_opt5
+!s110 1553871928
+VXJZ>:]YFjDC>NZQW6IbCW3
+04 18 9 work test_bench_execute testbench 1
+=1-a45e60e33bb3-5c9e3432-2a4-35dc
+R1
+n@_opt5
+R2
+R0
+T_opt6
+!s110 1554478306
+Vj[B3N2d?]4>g79Cz6eNhO1
+04 16 9 work test_bench_write testbench 1
+=1-a45e60e33bb3-5ca774de-31c-2320
+R1
+n@_opt6
+R2
+R0
+T_opt7
+!s110 1555083358
+VF;iRKUaU5@U9U5T6`aNko0
+04 18 9 work test_bench_tracker testbench 1
+=1-a45e60e33bb3-5cb0b059-b6-65c
+R1
+n@_opt7
+R2
+T_opt8
+!s110 1555081786
+VGk=`Qfdg20ZcR`bE9HmcD1
+04 18 9 work test_bench_regfile testbench 1
+=1-a45e60e33bb3-5cb0aa33-257-2c14
+R1
+n@_opt8
+R2
+R0
+Ealu
+Z4 w1553128274
+Z5 DPx4 work 6 alu_op 0 22 ;khAclVCGCzInSE_zmMcD2
+Z6 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 dD:/CAD/cad_lib/work
+Z10 8D:/CAD/cad_lib/hdl/ALU_entity.vhd
+Z11 FD:/CAD/cad_lib/hdl/ALU_entity.vhd
+l0
+L15
+V?`6TzniPo190f<?aRT_983
+!s100 YQEWN3SU:P=@Dj2fAEfb80
+Z12 OL;C;10.4c;61
+33
+Z13 !s110 1553871901
+!i10b 1
+Z14 !s108 1553871901.000000
+Z15 !s90 -work|cad_lib|-nologo|-2008|-f|C:/Users/XIAOXI~1/AppData/Local/Temp/Files0|
+Z16 !s107 D:/CAD/cad_lib/hdl/Test_bench_execute_entity.vhd|D:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|D:/CAD/cad_lib/hdl/Mux4_entity.vhd|D:/CAD/cad_lib/hdl/Alu_control_entity.vhd|D:/CAD/cad_lib/hdl/ALU_entity.vhd|D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd|
+!i113 0
+Z17 o-nologo -work cad_lib -2008
+Z18 tExplicit 1
+Abehavior
+R5
+R6
+R7
+R8
+Z19 DEx4 work 3 alu 0 22 ?`6TzniPo190f<?aRT_983
+l27
+L25
+VDWB7DTWh[0Pl3zNIozf@]0
+!s100 Smc?;e7lE`kY@YQi>Nb013
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ealu_control
+Z20 w1553865898
+R6
+R5
+Z21 DPx4 work 5 rv32i 0 22 4gZJ=zDa1FQ4bbCzVjG>[3
+R7
+R8
+R9
+Z22 8D:/CAD/cad_lib/hdl/Alu_control_entity.vhd
+Z23 FD:/CAD/cad_lib/hdl/Alu_control_entity.vhd
+l0
+L17
+V:cL;9;D80dIniT87Z]Y<30
+!s100 ICCIW1_D:V>f;?J0P3G>;2
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abehavior
+R6
+R5
+R21
+R7
+R8
+Z24 DEx4 work 11 alu_control 0 22 :cL;9;D80dIniT87Z]Y<30
+l25
+L24
+V3=i_VS^JG=021[5_^SGcT1
+!s100 zeT`aND?1QIR3?WBbkEi<0
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Palu_op
+R7
+R8
+Z25 w1553867982
+R9
+Z26 8D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd
+Z27 FD:/CAD/cad_lib/hdl/Alu_op_pkg.vhd
+l0
+L13
+V;khAclVCGCzInSE_zmMcD2
+!s100 4M]Fn2_F6PmM^iLHa4KEd1
+R12
+33
+b1
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Bbody
+R5
+R7
+R8
+l0
+L24
+V[a;P5h7L0X@mL<O@06OM20
+!s100 DM<4[Oh=9<giL>UzccP@h2
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Z28 nbody
+Earbiter
+Z29 w1554476460
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R7
+R8
+Z31 dG:/CAD/cad_lib/work
+Z32 8G:/CAD/cad_lib/hdl/Arbiter_entity.vhd
+Z33 FG:/CAD/cad_lib/hdl/Arbiter_entity.vhd
+l0
+L14
+V49aWLT5^ThL?O<U>W0Vj>0
+!s100 4gQ]I:BM_MSC[o2H:Zz2H0
+R12
+33
+Z34 !s110 1554476467
+!i10b 1
+Z35 !s108 1554476467.000000
+Z36 !s90 -work|cad_lib|-nologo|-2008|-f|C:/Users/34679/AppData/Local/Temp/Files0|
+Z37 !s107 G:/CAD/cad_lib/hdl/Arbiter_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R30
+R7
+R8
+Z38 DEx4 work 7 arbiter 0 22 49aWLT5^ThL?O<U>W0Vj>0
+l30
+L29
+V3b;DL?dLjnCK_gInZz;Qb0
+!s100 gCdGWBBC41A^?2zAI:2PW3
+R12
+33
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R17
+R18
+Ecompare
+Z39 w1553844864
+R6
+R7
+R8
+R31
+Z40 8G:/CAD/cad_lib/hdl/Compare_entity.vhd
+Z41 FG:/CAD/cad_lib/hdl/Compare_entity.vhd
+l0
+L14
+V<j]AOA6V4Nf6NBNXS4>^_3
+!s100 GCEfK7B5fW<3dG:SN=nbk1
+R12
+33
+Z42 !s110 1553844871
+!i10b 1
+Z43 !s108 1553844871.000000
+R36
+Z44 !s107 G:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|G:/CAD/cad_lib/hdl/Mux4_entity.vhd|G:/CAD/cad_lib/hdl/Ex_controller_entity.vhd|G:/CAD/cad_lib/hdl/Compare_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R6
+R7
+R8
+Z45 DEx4 work 7 compare 0 22 <j]AOA6V4Nf6NBNXS4>^_3
+l21
+L20
+VSTG72zDPa8<O9RT_[AE?01
+!s100 `C`N@jYzm13XK9Of:<EBf3
+R12
+33
+R42
+!i10b 1
+R43
+R36
+R44
+!i113 0
+R17
+R18
+Ede_control
+Z46 w1551848264
+R21
+R7
+R8
+R31
+Z47 8G:/CAD/cad_lib/hdl/De_Control_entity.vhd
+Z48 FG:/CAD/cad_lib/hdl/De_Control_entity.vhd
+l0
+L14
+V2ojmRPa=G`5b;Ehk_CLd90
+!s100 d=m]04SIKcII6C>0Jmk6H0
+R12
+33
+Z49 !s110 1551859112
+!i10b 1
+Z50 !s108 1551859112.000000
+R36
+Z51 !s107 G:/CAD/cad_lib/hdl/Test_bench_Des_entity.vhd|G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd|G:/CAD/cad_lib/hdl/De_Control_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R21
+R7
+R8
+Z52 DEx4 work 10 de_control 0 22 2ojmRPa=G`5b;Ehk_CLd90
+l21
+L20
+VAP=V;BT<I?XSYVBE4H;:?0
+!s100 eSnnmkjzOZY^1MceRi=PR0
+R12
+33
+R49
+!i10b 1
+R50
+R36
+R51
+!i113 0
+R17
+R18
+Edecoder
+Z53 w1551118514
+R21
+R7
+R8
+R9
+Z54 8D:/CAD/cad_lib/hdl/decoder_entity.vhd
+Z55 FD:/CAD/cad_lib/hdl/decoder_entity.vhd
+l0
+L14
+VN1=e_d]]ToEBDEV?YCci80
+!s100 7X8DUO71dOo98mJ7@QG6l0
+R12
+33
+Z56 !s110 1551118525
+!i10b 1
+Z57 !s108 1551118525.000000
+R15
+Z58 !s107 D:/CAD/cad_lib/hdl/decoder_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R21
+R7
+R8
+Z59 DEx4 work 7 decoder 0 22 N1=e_d]]ToEBDEV?YCci80
+l24
+L22
+VLHmOH6fg_^Mb<W4P_935D3
+!s100 _gVR9S<<QNYnC_LZFW=340
+R12
+33
+R56
+!i10b 1
+R57
+R15
+R58
+!i113 0
+R17
+R18
+Edecoder_stage
+Z60 w1551859408
+R21
+R7
+R8
+R31
+Z61 8G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd
+Z62 FG:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd
+l0
+L14
+V2CKn4cBTLD`?mTAI=7OQY3
+!s100 jj`jFVUFmDBcdg7aGW0U^0
+R12
+33
+Z63 !s110 1551859417
+!i10b 1
+Z64 !s108 1551859416.000000
+R36
+Z65 !s107 G:/CAD/cad_lib/hdl/Test_bench_Des_entity.vhd|G:/CAD/cad_lib/hdl/Decoder_stage_entity.vhd|
+!i113 0
+R17
+R18
+Astructure
+R6
+R30
+Z66 DEx4 work 4 mux2 0 22 ^5zf80:2AX5VD1T7`JWz<3
+R52
+R59
+R21
+R7
+R8
+Z67 DEx4 work 13 decoder_stage 0 22 2CKn4cBTLD`?mTAI=7OQY3
+l28
+L23
+VNMn<D5d]<VCWzdjQzG;1M2
+!s100 RnM<=6g4Y2Ub_<1F>`4@70
+R12
+33
+R63
+!i10b 1
+R64
+R36
+R65
+!i113 0
+R17
+R18
+Eex_controller
+Z68 w1553844898
+R21
+R30
+R7
+R8
+R31
+Z69 8G:/CAD/cad_lib/hdl/Ex_controller_entity.vhd
+Z70 FG:/CAD/cad_lib/hdl/Ex_controller_entity.vhd
+l0
+L15
+Vz?[>bL2WIhzZX6hI2af^B2
+!s100 TJhe`DPWI3DY0X0e2kHbJ1
+R12
+33
+Z71 !s110 1553844899
+!i10b 1
+Z72 !s108 1553844899.000000
+R36
+Z73 !s107 G:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|G:/CAD/cad_lib/hdl/Mux4_entity.vhd|G:/CAD/cad_lib/hdl/Ex_controller_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R21
+R30
+R7
+R8
+Z74 DEx4 work 13 ex_controller 0 22 z?[>bL2WIhzZX6hI2af^B2
+l26
+L25
+V:TjjDQ3=V[YgE6MV;iZQT1
+!s100 diokLmcPicVIlYX8?Pzg33
+R12
+33
+R71
+!i10b 1
+R72
+R36
+R73
+!i113 0
+R17
+R18
+Eexecute_stage
+Z75 w1553866908
+R5
+R21
+R7
+R8
+R9
+Z76 8D:/CAD/cad_lib/hdl/Execute_stage_entity.vhd
+Z77 FD:/CAD/cad_lib/hdl/Execute_stage_entity.vhd
+l0
+L16
+VSzK:IYofQ:@>IYFhXzFGd0
+!s100 YB2[MDXA=B8zi:CPSl1Cc1
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Astructure
+Z78 DEx4 work 4 mux4 0 22 gaA:HS4?kaQ<nB4EXN5QR3
+R66
+R74
+R45
+R19
+R6
+R24
+Z79 DEx4 work 7 fun_reg 0 22 g:POb`J6:Uf4Z5U@<a95I3
+R30
+Z80 DEx4 work 3 reg 0 22 P4GVV3kJ8]<aW0ORn2]kN0
+R5
+R21
+R7
+R8
+Z81 DEx4 work 13 execute_stage 0 22 SzK:IYofQ:@>IYFhXzFGd0
+l35
+L28
+VN?l5OYd6>6ED4:N>dfg;Z0
+!s100 M9F;Ja6l:>VG@WN>>GToi0
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Efetch
+Z82 w1550214046
+R6
+R7
+R8
+R9
+Z83 8D:/CAD/cad_lib/hdl/Fetch_entity.vhd
+Z84 FD:/CAD/cad_lib/hdl/Fetch_entity.vhd
+l0
+L14
+VBoRYnSk`_=8JWCBBMmf3A2
+!s100 T:gUJLO@Dg:7j=2Q<?]^81
+R12
+33
+Z85 !s110 1550214060
+!i10b 1
+Z86 !s108 1550214060.000000
+R15
+Z87 !s107 D:/CAD/cad_lib/hdl/Test_bench_entity.vhd|D:/CAD/cad_lib/hdl/Fetch_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R6
+R7
+R8
+DEx4 work 5 fetch 0 22 BoRYnSk`_=8JWCBBMmf3A2
+l25
+L21
+VV=Ej;MW@^JFbGFUzS@g:m2
+!s100 9n^f;ChF09LA<lf76gYij1
+R12
+33
+R85
+!i10b 1
+R86
+R15
+R87
+!i113 0
+R17
+R18
+Efetch_new
+Z88 w1550257086
+R30
+R7
+R8
+R31
+Z89 8G:/CAD/cad_lib/hdl/Fetch_new_entity.vhd
+Z90 FG:/CAD/cad_lib/hdl/Fetch_new_entity.vhd
+l0
+L14
+VcS6STng=_Te4hT3BP3gAz2
+!s100 gE0k4KBKF3Jz9TMf11;fb0
+R12
+33
+Z91 !s110 1552934519
+!i10b 1
+Z92 !s108 1552934519.000000
+R36
+Z93 !s107 G:/CAD/cad_lib/hdl/Test_bench_entity.vhd|G:/CAD/cad_lib/hdl/Fetch_new_entity.vhd|G:/CAD/cad_lib/hdl/Mux2_entity.vhd|G:/CAD/cad_lib/hdl/Increment_entity.vhd|
+!i113 0
+R17
+R18
+Astructure
+Z94 DEx4 work 9 increment 0 22 j;MJQd5O0LY^7IW_n<[O`1
+R80
+R6
+R66
+R30
+R7
+R8
+Z95 DEx4 work 9 fetch_new 0 22 cS6STng=_Te4hT3BP3gAz2
+l24
+L21
+VYiCZCDGK3TSjL6_d]UXlG2
+!s100 o?71l`Dm5cYT1T:Ll=4oL1
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Efun_reg
+Z96 w1553845322
+R21
+R30
+R7
+R8
+R31
+Z97 8G:/CAD/cad_lib/hdl/Fun_reg_entity.vhd
+Z98 FG:/CAD/cad_lib/hdl/Fun_reg_entity.vhd
+l0
+L15
+Vg:POb`J6:Uf4Z5U@<a95I3
+!s100 ]UzQinNMCfn]No3]HbPgf0
+R12
+33
+Z99 !s110 1553845323
+!i10b 1
+Z100 !s108 1553845323.000000
+R36
+Z101 !s107 G:/CAD/cad_lib/hdl/Execute_stage_entity.vhd|G:/CAD/cad_lib/hdl/Fun_reg_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R21
+R30
+R7
+R8
+R79
+l22
+L21
+VZ3ZmCfdAS0b79D5JRPSaC3
+!s100 MM?a1?;b0L?_nl=7F[??H3
+R12
+33
+R99
+!i10b 1
+R100
+R36
+R101
+!i113 0
+R17
+R18
+Eincrement
+Z102 w1548816340
+R6
+R7
+R8
+R31
+Z103 8G:/CAD/cad_lib/hdl/Increment_entity.vhd
+Z104 FG:/CAD/cad_lib/hdl/Increment_entity.vhd
+l0
+L14
+Vj;MJQd5O0LY^7IW_n<[O`1
+!s100 bYX[cJg@Cn<:@h:_Ob_b<0
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Abehavior
+R6
+R7
+R8
+R94
+l22
+L21
+V?MZ[@n7RDl<H_e]mLFf@V3
+!s100 ^84^FW?^VA7c@kTfzDJI]3
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Eme_controller
+Z105 w1554471356
+R21
+R7
+R8
+R31
+Z106 8G:/CAD/cad_lib/hdl/Me_controller_entity.vhd
+Z107 FG:/CAD/cad_lib/hdl/Me_controller_entity.vhd
+l0
+L14
+V0RN6Xa9VSaVCJ6b@>6Y6O3
+!s100 faLCH0^8B5dIKfhc_4O?G1
+R12
+33
+Z108 !s110 1554471365
+!i10b 1
+Z109 !s108 1554471365.000000
+R36
+Z110 !s107 G:/CAD/cad_lib/hdl/Memory_stage_entity.vhd|G:/CAD/cad_lib/hdl/Me_controller_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R21
+R7
+R8
+Z111 DEx4 work 13 me_controller 0 22 0RN6Xa9VSaVCJ6b@>6Y6O3
+l24
+L23
+V7U<SO1bmjD=2hW3GUDTKJ0
+!s100 A[K26>=D7KCLIYm<=TPQ01
+R12
+33
+R108
+!i10b 1
+R109
+R36
+R110
+!i113 0
+R17
+R18
+Ememory_stage
+Z112 w1554471174
+R21
+R30
+R7
+R8
+R31
+Z113 8G:/CAD/cad_lib/hdl/Memory_stage_entity.vhd
+Z114 FG:/CAD/cad_lib/hdl/Memory_stage_entity.vhd
+l0
+L15
+VK1?GLGoJ=O6A?LH5iW[9X2
+!s100 m9_LkeL?`?WV8XdD;iaHg1
+R12
+33
+R108
+!i10b 1
+R109
+R36
+R110
+!i113 0
+R17
+R18
+Astructure
+R6
+R66
+R111
+R79
+R80
+R21
+R30
+R7
+R8
+Z115 DEx4 work 12 memory_stage 0 22 K1?GLGoJ=O6A?LH5iW[9X2
+l34
+L32
+VJUjBDBc_bAe7ld_FIVV2l1
+!s100 F`^c;;]HN1oO^ZnkBEA;J2
+R12
+33
+R108
+!i10b 1
+R109
+R36
+R110
+!i113 0
+R17
+R18
+Emux2
+Z116 w1548724922
+R6
+R30
+R7
+R8
+R31
+Z117 8G:/CAD/cad_lib/hdl/Mux2_entity.vhd
+Z118 FG:/CAD/cad_lib/hdl/Mux2_entity.vhd
+l0
+L15
+V^5zf80:2AX5VD1T7`JWz<3
+!s100 <ZO]aVaCQF726>L9J9D?51
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Abehavior
+R6
+R30
+R7
+R8
+R66
+l24
+L23
+VOGF<Kb4`:bACMbnkgjGBK1
+!s100 oR?;n;P2B]elgJC8T[WNI2
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Emux32
+Z119 w1555040494
+R6
+R30
+R7
+R8
+R31
+Z120 8G:/CAD/cad_lib/hdl/Mux32_entity.vhd
+Z121 FG:/CAD/cad_lib/hdl/Mux32_entity.vhd
+l0
+L15
+VYcN6B@jNd5U?>C_G3=nI_3
+!s100 KWgiN;bln=CFP9bDSBTCG0
+R12
+33
+Z122 !s110 1555078242
+!i10b 1
+Z123 !s108 1555078242.000000
+R36
+Z124 !s107 G:/CAD/cad_lib/hdl/Test_bench_regfile_entity.vhd|G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd|G:/CAD/cad_lib/hdl/Mux32_entity.vhd|G:/CAD/cad_lib/hdl/Reg_dec_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R6
+R30
+R7
+R8
+Z125 DEx4 work 5 mux32 0 22 YcN6B@jNd5U?>C_G3=nI_3
+l23
+L22
+VBRIQHlIg4J^j6^Y6PUXNI3
+!s100 DGU_U2maeGn3;A4>3U^FF2
+R12
+33
+R122
+!i10b 1
+R123
+R36
+R124
+!i113 0
+R17
+R18
+Emux4
+Z126 w1553867798
+R6
+R30
+R7
+R8
+R9
+Z127 8D:/CAD/cad_lib/hdl/Mux4_entity.vhd
+Z128 FD:/CAD/cad_lib/hdl/Mux4_entity.vhd
+l0
+L15
+VgaA:HS4?kaQ<nB4EXN5QR3
+!s100 f>alK[zimzG`^BS>HG<GL1
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Abehavior
+R6
+R30
+R7
+R8
+R78
+l24
+L23
+V0?D3YT[VgJnWH`1c^9c;61
+!s100 Y`ZX5Odkgb5gn=2D21MK`2
+R12
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Ereg
+Z129 w1548730082
+R30
+R7
+R8
+R31
+Z130 8G:/CAD/cad_lib/hdl/Reg_entity.vhd
+Z131 FG:/CAD/cad_lib/hdl/Reg_entity.vhd
+l0
+L14
+VP4GVV3kJ8]<aW0ORn2]kN0
+!s100 M6a0`:o3mVzha15JHZFk;3
+R12
+33
+Z132 !s110 1553845252
+!i10b 1
+Z133 !s108 1553845252.000000
+R36
+Z134 !s107 G:/CAD/cad_lib/hdl/Reg_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R30
+R7
+R8
+R80
+l22
+L21
+V2zj1]KWSTgFnV7XJJYnig2
+!s100 >53SJWEH:a`>=BDRoWaZ@3
+R12
+33
+R132
+!i10b 1
+R133
+R36
+R134
+!i113 0
+R17
+R18
+Ereg_dec
+Z135 w1555078232
+R6
+R7
+R8
+R31
+Z136 8G:/CAD/cad_lib/hdl/Reg_dec_entity.vhd
+Z137 FG:/CAD/cad_lib/hdl/Reg_dec_entity.vhd
+l0
+L14
+Vb^d1VNBOmAc[USknZlhjT2
+!s100 9<eLOCZ3nUkXjD3@[IYeK2
+R12
+33
+R122
+!i10b 1
+R123
+R36
+R124
+!i113 0
+R17
+R18
+Abehavior
+R6
+R7
+R8
+Z138 DEx4 work 7 reg_dec 0 22 b^d1VNBOmAc[USknZlhjT2
+l21
+L20
+V7=PY4iQa^bOho<EFZ=X6T3
+!s100 L::<EmoRHjB^HRQ@iX^j41
+R12
+33
+R122
+!i10b 1
+R123
+R36
+R124
+!i113 0
+R17
+R18
+Ereg_tracker
+Z139 w1555083242
+R6
+R7
+R8
+R9
+Z140 8D:/CAD/cad_lib/hdl/Reg_tracker_entity.vhd
+Z141 FD:/CAD/cad_lib/hdl/Reg_tracker_entity.vhd
+l0
+L14
+V2Zb@MR7GA;1ZkVUY@Q?o82
+!s100 Y>49LB:60L`ZWUGaGilGM2
+R12
+33
+Z142 !s110 1555083271
+!i10b 1
+Z143 !s108 1555083270.000000
+R15
+Z144 !s107 D:/CAD/cad_lib/hdl/Reg_tracker_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R6
+R7
+R8
+Z145 DEx4 work 11 reg_tracker 0 22 2Zb@MR7GA;1ZkVUY@Q?o82
+l22
+L21
+VTi05j;1U3GZ@AA51kacKJ1
+!s100 4VGVhJ41J:BEDRmQQC9X=0
+R12
+33
+R142
+!i10b 1
+R143
+R15
+R144
+!i113 0
+R17
+R18
+Eregisterfile
+Z146 w1555079208
+R30
+R7
+R8
+R31
+Z147 8G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd
+Z148 FG:/CAD/cad_lib/hdl/RegisterFile_entity.vhd
+l0
+L14
+Vgk5ee1JM2X3KE7ceBm?jK3
+!s100 ^QZV]Tmf`Y19jM5H;A0OO0
+R12
+33
+Z149 !s110 1555079210
+!i10b 1
+Z150 !s108 1555079210.000000
+R36
+Z151 !s107 G:/CAD/cad_lib/hdl/RegisterFile_entity.vhd|
+!i113 0
+R17
+R18
+Astructure
+R125
+R80
+R6
+R138
+R30
+R7
+R8
+Z152 DEx4 work 12 registerfile 0 22 gk5ee1JM2X3KE7ceBm?jK3
+l25
+L21
+V5X@`S02RnmQ[GzIR[eOSA1
+!s100 FFCMFejQ36A]T1_:f=8HN2
+R12
+33
+R149
+!i10b 1
+R150
+R36
+R151
+!i113 0
+R17
+R18
+Prv32i
+R7
+R8
+Z153 w1553844696
+R31
+Z154 8G:/CAD/cad_lib/hdl/RV32I_pkg.vhd
+Z155 FG:/CAD/cad_lib/hdl/RV32I_pkg.vhd
+l0
+L13
+V4gZJ=zDa1FQ4bbCzVjG>[3
+!s100 Z[BDgPJIYmTiU4W_^H3T91
+R12
+33
+b1
+Z156 !s110 1553844724
+!i10b 1
+Z157 !s108 1553844724.000000
+R36
+Z158 !s107 G:/CAD/cad_lib/hdl/Alu_control_entity.vhd|G:/CAD/cad_lib/hdl/RV32I_pkg.vhd|
+!i113 0
+R17
+R18
+Bbody
+R21
+R7
+R8
+l0
+L70
+VOl`U`J5?G[9F2`Ebnb1^i3
+!s100 HdAeLG00z;keNH?AaHO1@1
+R12
+33
+R156
+!i10b 1
+R157
+R36
+R158
+!i113 0
+R17
+R18
+R28
+Esimplemux2
+Z159 w1548274891
+R30
+R7
+R8
+R0
+Z160 8F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd
+Z161 FF:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd
+l0
+L14
+VkoaGfYHhVPdD?VS<H8VIN1
+!s100 42Nl5;8GOiBBFgGG`M^9D0
+R12
+33
+Z162 !s110 1548274937
+!i10b 1
+Z163 !s108 1548274937.000000
+R36
+Z164 !s107 F:/Coumputer Architecture/Lab/Project/CAD/cad_lib/hdl/SimpleMux2_entity.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R30
+R7
+R8
+DEx4 work 10 simplemux2 0 22 koaGfYHhVPdD?VS<H8VIN1
+l22
+L21
+VUmkkFdIjGcae<0EaA8BWD1
+!s100 FEGen<hQE8gU7;1H[CV@83
+R12
+33
+R162
+!i10b 1
+R163
+R36
+R164
+!i113 0
+R17
+R18
+Etest_bench
+Z165 w1550257892
+R6
+R7
+R8
+R31
+Z166 8G:/CAD/cad_lib/hdl/Test_bench_entity.vhd
+Z167 FG:/CAD/cad_lib/hdl/Test_bench_entity.vhd
+l0
+L15
+V2UOUP?zgAB<HTQXJa^]Cd1
+!s100 A8l3RTaI9i=gWmY7ZZYZM0
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Atestbench
+R30
+R95
+R6
+R7
+R8
+DEx4 work 10 test_bench 0 22 2UOUP?zgAB<HTQXJa^]Cd1
+l25
+L18
+VX8XXL4R^AFI@[J<ac6CHl0
+!s100 e]PdiT_4k[@]TkSBjal2f3
+R12
+33
+R91
+!i10b 1
+R92
+R36
+R93
+!i113 0
+R17
+R18
+Etest_bench_alu
+Z168 w1553267136
+Z169 DPx4 work 6 alu_op 0 22 ]W0ZQJ<Yle7a?H=713DbQ2
+R6
+R7
+R8
+R9
+Z170 8D:/CAD/cad_lib/hdl/Test_bench_alu_entity.vhd
+Z171 FD:/CAD/cad_lib/hdl/Test_bench_alu_entity.vhd
+l0
+L16
+VoDf^8Zm@1>6?2VJof85a]2
+!s100 JdblT9NG3F44Vhf:?7H1_0
+R12
+33
+Z172 !s110 1553267137
+!i10b 1
+Z173 !s108 1553267137.000000
+R15
+Z174 !s107 D:/CAD/cad_lib/hdl/Test_bench_alu_entity.vhd|
+!i113 0
+R17
+R18
+Atestbench
+R19
+R169
+R6
+R7
+R8
+DEx4 work 14 test_bench_alu 0 22 oDf^8Zm@1>6?2VJof85a]2
+l28
+L19
+VeiD4_>`Y5n4A3h9`HZ=MG2
+!s100 zYYUUjaVzzV52kE5CjRGg0
+R12
+33
+R172
+!i10b 1
+R173
+R15
+R174
+!i113 0
+R17
+R18
+Etest_bench_arbiter
+Z175 w1554478602
+R21
+R6
+R7
+R8
+R9
+Z176 8D:/CAD/cad_lib/hdl/Test_bench_Arbiter_entity.vhd
+Z177 FD:/CAD/cad_lib/hdl/Test_bench_Arbiter_entity.vhd
+l0
+L16
+VE9bD0mgJFj4J?RaRM3DIJ0
+!s100 PRJifg[[2FSO<JfNlZ56`3
+R12
+33
+Z178 !s110 1554478607
+!i10b 1
+Z179 !s108 155447

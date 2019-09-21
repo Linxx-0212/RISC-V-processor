@@ -1,0 +1,5 @@
+Mux2-32 Mux2_32
+Fetch_new Fetch_new
+Increment-32 Increment_32
+Reg-32 Reg_32
+#LEGALIZEDMOD_COUNTER 0

@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom Testbench
+DEFAULT_FILE atom Test_bench_tracker_entity.vhd

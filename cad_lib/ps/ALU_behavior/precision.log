@@ -1,0 +1,86 @@
+# Info: [9569]: Logging session transcript to file C:/MentorGraphics/bin/precision.log
+//  Precision RTL Synthesis 64-bit 2018.1.0.19 (Production Release) Fri Aug 10 05:55:53 PDT 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 10 Xiaoxi Lin@DESKTOP-A0VSQRS  10.0.17763 x64
+//  
+//  Start time Fri Mar 22 11:07:11 2019
+# -------------------------------------------------
+# Info: [9569]: Logging session transcript to file C:/MentorGraphics/bin/precision.log
+# COMMAND: source D:/CAD/cad_lib/ps/ALU_behavior/hds/precision.tcl
+# Info: HDL Designer Synthesis run started
+# Info: [9577]: Input directory: D:/CAD/cad_lib/ps/ALU_behavior
+# Info: [9572]: Moving session transcript to file D:/CAD/cad_lib/ps/ALU_behavior/precision.log
+# Info: [9578]: The Results Directory has been set to: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_2/
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_2/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_2/precision.log.suppressed
+# Info: [9552]: Activated implementation ALU_behavior_impl_2 in project D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3.
+# Info: [9557]: Created implementation ALU_behavior_impl_3 in project D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior.psp.
+# Info: [9578]: The Results Directory has been set to: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/precision.log.suppressed
+# Info: [9552]: Activated implementation ALU_behavior_impl_3 in project D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior.psp.
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/ALU_entity.vhd" ...
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:32:49
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2018a.17
+# Info: [40000]: Last compiled on Jun 28 2018 15:52:40
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.ALU(behavior): Pre-processing...
+# Warning: [45500]: "D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd", line 18: No. of objects in encoding attribute set on enumerated type ALU_Op is not equal to no. of elements in enumerated type. Ignoring it...
+# Info: [45143]: "D:/CAD/cad_lib/hdl/Alu_op_pkg.vhd", line 16: Enumerated type ALU_Op with 9 elements encoded as onehot.
+# Info: [45144]: Encodings for ALU_Op values.
+# Info: [40000]: value                              	                        ALU_Op[8-0]
+# Info: [40000]: aADD                               	                     000000001
+# Info: [40000]: aSUB                               	                     000000010
+# Info: [40000]: aAND                               	                     000000100
+# Info: [40000]: aOR                                	                     000001000
+# Info: [40000]: aXOR                               	                     000010000
+# Info: [40000]: aSL                                	                     000100000
+# Info: [40000]: aSRL                               	                     001000000
+# Info: [40000]: aSRA                               	                     010000000
+# Info: [40000]: BAD                                	                     100000000
+# Info: [44523]: Root Module work.ALU(behavior): Compiling...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 38.
+# Info: [44835]: Total CPU time for compilation: 0.8 secs.
+# Info: [44513]: Overall running time for compilation: 2.0 secs.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [665]: Finished compiling design.
+# Info: [662]: Current working directory: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3.
+# Info: [15002]: Optimizing design view:.work.ALU.behavior
+# Info: [3027]: Writing file: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/ALU.edf.
+# Info: Info, Writing xrf file 'D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/ALU.xrf'
+# Info: [3027]: Writing file: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/ALU.xrf.
+# Info: -- Writing file D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior_impl_3/ALU.tcl
+# Info: exq_pr_compile_project gen_vcf ALU 1
+# Info: [665]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 3.7 s secs.
+# Info: [11020]: Overall running time for synthesis: 6.2 s secs.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/ALU_behavior/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation ALU_behavior_impl_3.
+# Info: [9530]: Closed project: D:/CAD/cad_lib/ps/ALU_behavior/ALU_behavior.psp.
+close_project -discard
+exit -force

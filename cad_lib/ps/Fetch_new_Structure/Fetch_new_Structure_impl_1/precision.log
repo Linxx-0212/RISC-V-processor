@@ -1,0 +1,49 @@
+# Info: [9569]: Logging project transcript to file D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure_impl_1/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation Fetch_new_Structure_impl_1 in project D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure.psp.
+new_impl -name Fetch_new_Structure_impl_1
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Fetch_new_entity.vhd" ...
+# Error: [43094]: "D:/CAD/cad_lib/hdl/Fetch_new_entity.vhd", line 25: Design Unit Mux2 not found in logical library work.
+# Error: [40008]: HDL analysis failed.
+# Info: HDL Designer Synthesis run finished
+source D:/CAD/cad_lib/ps/Fetch_new_Structure/hds/precision.tcl
+# COMMAND: add_input_file {../../hdl/Increment_entity.vhd ../../hdl/Reg_entity.vhd ../../hdl/SimpleMux2_entity.vhd}
+add_input_file {../../hdl/Increment_entity.vhd ../../hdl/Reg_entity.vhd ../../hdl/SimpleMux2_entity.vhd}
+# COMMAND: compile
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2018a.17
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2018a.17
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Fetch_new_Structure/../../hdl/Increment_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Fetch_new_Structure/../../hdl/Reg_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/ps/Fetch_new_Structure/../../hdl/SimpleMux2_entity.vhd" ...
+# Info: [42502]: Analyzing input file "D:/CAD/cad_lib/hdl/Fetch_new_entity.vhd" ...
+# Error: [42572]: "D:/CAD/cad_lib/hdl/Fetch_new_entity.vhd", line 40: Cannot read output/linkage port Read
+# Error: [42855]: "D:/CAD/cad_lib/hdl/Fetch_new_entity.vhd", line 40: Actual associated with formal port Sel of mode IN cannot be of mode OUT or LINKAGE
+# Error: [40008]: HDL analysis failed.
+compile
+# COMMAND: save_project
+# Info: [9565]: Saved implementation Fetch_new_Structure_impl_1 in project D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure.psp.
+save_project
+# COMMAND: close_project -discard
+# Info: [9568]: Appending project transcript to file D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure_impl_1/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure_impl_1/precision.log.suppressed
+# Info: [15300]: Setting up the design to use synthesis library "maxv.syn"
+# Info: [580]: The global max fanout is currently set to 1000 for Altera - MAX V .
+# Info: [15326]: Setting Part to: "5M2210ZF324A".
+# Info: [15327]: Setting Process to: "5".
+# Warning: [574]: Setting 'optimize_power_effort' is not allowed in RTL product mode. Ignoring.
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/techlibs/maxv.syn.
+# Info: [639]: Loading library initialization file C:/MentorGraphics/PS2018.1_64-bit/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [9552]: Activated implementation Fetch_new_Structure_impl_1 in project D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure.psp.
+# Info: [9531]: Created directory: D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure_impl_2.
+# Info: [9557]: Created implementation Fetch_new_Structure_impl_2 in project D:/CAD/cad_lib/ps/Fetch_new_Structure/Fetch_new_Structure.psp.

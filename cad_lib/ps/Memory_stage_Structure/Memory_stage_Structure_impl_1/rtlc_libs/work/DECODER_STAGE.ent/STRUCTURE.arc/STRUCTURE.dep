@@ -1,0 +1,25 @@
+1554481128.297000
+*1498379764
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	DECODER_STAGE	DECODER_STAGE	0	352311848
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	DECODER	DECODER	0	2749671015
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	RV32I	RV32I	2	842427033
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	BEHAVIOR	DECODER	1	3276446257
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	DE_CONTROL	DE_CONTROL	0	1013964759
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	RV32I	RV32I	2	842427033
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	BEHAVIOR	DE_CONTROL	1	587464856
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	MUX2	MUX2	0	2104579194
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+work	D:\CAD\cad_lib\ps\Memory_stage_Structure\Memory_stage_Structure_impl_1\rtlc_libs\work	BEHAVIOR	MUX2	1	3758899488
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+ieee	C:\MentorGraphics\PS2018.1_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2008	NUMERIC_STD	NUMERIC_STD	2	0

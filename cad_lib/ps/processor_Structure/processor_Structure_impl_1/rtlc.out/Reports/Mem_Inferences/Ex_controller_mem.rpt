@@ -1,0 +1,7 @@
+Inferred ROM
+------------
+  1. Instance: rtlc_Sel_data[1]_I4
+    File: D:/CAD/cad_lib/hdl/Ex_controller_entity.vhd , Net: rtlc_Sel_data[1]
+    port 1  address width: 6
+    port 1  data width: 1
+

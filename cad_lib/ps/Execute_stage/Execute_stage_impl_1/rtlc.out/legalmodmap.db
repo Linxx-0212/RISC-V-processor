@@ -1,0 +1,10 @@
+Execute_stage Execute_stage
+Mux2-32 Mux2_32
+Compare Compare
+ALU ALU
+Mux4-32 Mux4_32
+Reg-32 Reg_32
+Reg-5 Reg_5
+Alu_control Alu_control
+Ex_controller Ex_controller
+#LEGALIZEDMOD_COUNTER 0
